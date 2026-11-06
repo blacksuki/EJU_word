@@ -1,0 +1,199 @@
+{
+  "id": "jasso-public-booklets-2016-2017-v1",
+  "checkedOn": "2026-11-06",
+  "method": "NFKC; remove whitespace and PDF ruby smaller than 72% of dominant body font; exclude cover; literal surface matches; manually exclude different usages and bibliography for selected items; retain compounds of same sense. Session coverage is primary; repeated options still count in occurrence audit.",
+  "limitations": [
+    "仅 2016-2、2017-1、2017-2 的公开题册，非完整试卷或完整历年语料。",
+    "听力脚本存在字符映射问题，2018-1 包含扫描页，均未纳入统计。",
+    "正文、题干、图表、选项及记述题均包含；同题重复导致次数不能代表考题频度。",
+    "文字提取可能漏检，未实施 OCR 或词形归并；0 命中不等于没考过。"
+  ],
+  "documents": [
+    {
+      "id": "2016_2-0",
+      "session": "2016_2",
+      "label": "日本語（記述、読解、聴解・聴読解）",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2022/03/24/2016_2question_jafl.pdf",
+      "sourcePage": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/pastpaper_2016_2.html",
+      "sha256": "bf0f52828980e7b9d4b50a1ea3d3bca99f2c664cae4b995ac94d43c5fc3e3425",
+      "pdfPages": 16,
+      "includedPdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "2017_1-0",
+      "session": "2017_1",
+      "label": "日本語（記述、読解、聴解・聴読解）",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2025/04/28/2017_1question_jafl.pdf",
+      "sourcePage": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/pastpaper_2017_1.html",
+      "sha256": "86a2b9a07707f1ea1f6ca00405d8648f5bad307315bcb68a0d01db77547d8913",
+      "pdfPages": 43,
+      "includedPdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "2017_2-0",
+      "session": "2017_2",
+      "label": "日本語（記述、読解、聴解・聴読解）",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2025/04/24/2017_2question_jafl.pdf",
+      "sourcePage": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/pastpaper_2017_2.html",
+      "sha256": "871d2271ea93f9bd9f2087d7eb0f2031ea4a1ef697817ee9b15acdb8f540f3c9",
+      "pdfPages": 50,
+      "includedPdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    }
+  ],
+  "excludedDocuments": [
+    {
+      "id": "2017_1-1",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2025/04/25/2017_1script_jaf_lr_1.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2017_1-2",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2025/04/25/2017_1script_jaf_l.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2017_2-1",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2025/04/25/2017_2script_jaf_lr.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2017_2-2",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2025/04/25/2017_2script_jaf_l.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2018_1-0",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2026/02/24/2018_1question_jafl.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2018_1-1",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2026/02/18/2018_1script_jaf_lr.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2018_1-2",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2022/02/04/2018_1script_jaf_lr.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2016_2-1",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2022/03/24/2016-2script_jaf_l.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    },
+    {
+      "id": "2016_2-2",
+      "url": "https://www.jasso.go.jp/ryugaku/eju/examinee/pastpaper_sample/__icsFiles/afieldfile/2022/03/24/2016_2script_jaf_lr-3.pdf",
+      "reason": "文字提取缺失或乱码，不用于词频"
+    }
+  ]
+}

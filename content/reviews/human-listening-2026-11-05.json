@@ -1,0 +1,49 @@
+{
+  "id": "user-listening-2026-11-05",
+  "method": "human_listening",
+  "reviewer": "user",
+  "reviewedOn": "2026-11-05",
+  "statement": "用户确认：5条音频已经完成人工听审，效果可以接受；包含词语和例句，共10段音频。",
+  "assets": [
+    {
+      "id": "eju-03-004-a-listen",
+      "sha256": "62d0c40070bdf2fa173e2d26fed54770a92bc947ce894ff1711977ef10dc7022"
+    },
+    {
+      "id": "eju-03-004-a-example",
+      "sha256": "9bb8cc510c968034c0ce9320bd7a1ae2465dbb958942b2e731816db3d83cdd6e"
+    },
+    {
+      "id": "eju-02-004-a-listen",
+      "sha256": "a7365030906c7fadacf8b74af1d2f7760f667205d52ab76824dd74fd4493382b"
+    },
+    {
+      "id": "eju-02-004-a-example",
+      "sha256": "1c409fae385e8568b55476befb1b95c5761b371e676be9cda92abc643ae67bd9"
+    },
+    {
+      "id": "eju-01-031-a-listen",
+      "sha256": "fd3aadacb16fe6af5007743b87b7e0736fd146d45c095f62a7d1304636795bea"
+    },
+    {
+      "id": "eju-01-031-a-example",
+      "sha256": "bdfe4dd453586cc9c84a10ecfdec0777785492d81d880d5feabaeb4b8d84afc4"
+    },
+    {
+      "id": "eju-02-008-a-listen",
+      "sha256": "90843bcb8f93075356bcf131a0e30c5ac88dbfebabbf5d828a73da97b278dac6"
+    },
+    {
+      "id": "eju-02-008-a-example",
+      "sha256": "b09b38d0d51eb4443c9ded61b2637c178c5e53abd7232132250cf1b90a0bd651"
+    },
+    {
+      "id": "eju-01-007-a-listen",
+      "sha256": "f448e5ead6c60797b03ce9d8764ece52dfb32be472335353966022a2cbe1113d"
+    },
+    {
+      "id": "eju-01-007-a-example",
+      "sha256": "f448e5ead6c60797b03ce9d8764ece52dfb32be472335353966022a2cbe1113d"
+    }
+  ]
+}

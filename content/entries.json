@@ -1,0 +1,197 @@
+[
+  {
+    "id": "eju-03-004-a",
+    "version": 1,
+    "kind": "word",
+    "surface": "分析",
+    "reading": "ぶんせき",
+    "baseForm": "分析",
+    "sense": "分析、研究事物的构成或原因",
+    "meaningZh": "分析、研究事物的构成或原因",
+    "exampleJa": "調査の結果を分析します。",
+    "exampleZh": "分析调查结果。",
+    "exampleOrigin": "authored",
+    "sources": [
+      {
+        "file": "EJU日语3.pages",
+        "number": 4,
+        "raw": "ぶんせき　分析"
+      }
+    ],
+    "collocations": [],
+    "noteZh": "",
+    "relatedIds": [],
+    "examUses": [
+      "listening",
+      "reading"
+    ],
+    "topic": "研究说明",
+    "packId": "development-five",
+    "priority": 1,
+    "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+    "sequence": 0,
+    "textStatus": "draft",
+    "evidence": [],
+    "listenText": "分析",
+    "audio": {
+      "listen": "eju-03-004-a-listen",
+      "example": "eju-03-004-a-example"
+    }
+  },
+  {
+    "id": "eju-02-004-a",
+    "version": 1,
+    "kind": "word",
+    "surface": "課題",
+    "reading": "かだい",
+    "baseForm": "課題",
+    "sense": "课题；需要解决的问题或完成的任务",
+    "meaningZh": "课题；需要解决的问题或完成的任务",
+    "exampleJa": "今日の課題を提出してください。",
+    "exampleZh": "请提交今天的作业。",
+    "exampleOrigin": "authored",
+    "sources": [
+      {
+        "file": "EJU日语2.pages",
+        "number": 4,
+        "raw": "かだい　課題　课题"
+      }
+    ],
+    "collocations": [],
+    "noteZh": "",
+    "relatedIds": [],
+    "examUses": [
+      "listening",
+      "reading"
+    ],
+    "topic": "校园学习",
+    "packId": "development-five",
+    "priority": 1,
+    "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+    "sequence": 1,
+    "textStatus": "draft",
+    "evidence": [],
+    "listenText": "課題",
+    "audio": {
+      "listen": "eju-02-004-a-listen",
+      "example": "eju-02-004-a-example"
+    }
+  },
+  {
+    "id": "eju-01-031-a",
+    "version": 1,
+    "kind": "phrase",
+    "surface": "手間をかける",
+    "reading": "てまをかける",
+    "baseForm": "かける",
+    "sense": "花费时间和精力",
+    "meaningZh": "花费时间和精力",
+    "exampleJa": "この料理は手間をかけて作りました。",
+    "exampleZh": "这道菜花了时间和精力制作。",
+    "exampleOrigin": "authored",
+    "sources": [
+      {
+        "file": "EJU日语1.pages",
+        "number": 31,
+        "raw": "手間をかける　てまをかける　花功夫"
+      }
+    ],
+    "collocations": [],
+    "noteZh": "",
+    "relatedIds": [],
+    "examUses": [
+      "listening",
+      "reading"
+    ],
+    "topic": "时间与行动",
+    "packId": "development-five",
+    "priority": 1,
+    "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+    "sequence": 2,
+    "textStatus": "draft",
+    "evidence": [],
+    "listenText": "手間をかける",
+    "audio": {
+      "listen": "eju-01-031-a-listen",
+      "example": "eju-01-031-a-example"
+    }
+  },
+  {
+    "id": "eju-02-008-a",
+    "version": 1,
+    "kind": "form",
+    "surface": "探せる",
+    "reading": "さがせる",
+    "baseForm": "探す",
+    "sense": "能寻找、能查找；「探す」的可能形",
+    "meaningZh": "能寻找、能查找；「探す」的可能形",
+    "exampleJa": "図書館で必要な資料を探せます。",
+    "exampleZh": "可以在图书馆查找需要的资料。",
+    "exampleOrigin": "authored",
+    "sources": [
+      {
+        "file": "EJU日语2.pages",
+        "number": 8,
+        "raw": "さがせる　探せる　能找到"
+      }
+    ],
+    "collocations": [],
+    "noteZh": "可能形不保证一定找到；实际含义取决于语境。",
+    "relatedIds": [],
+    "examUses": [
+      "listening",
+      "reading"
+    ],
+    "topic": "校园学习",
+    "packId": "development-five",
+    "priority": 1,
+    "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+    "sequence": 3,
+    "textStatus": "draft",
+    "evidence": [],
+    "listenText": "探せる",
+    "audio": {
+      "listen": "eju-02-008-a-listen",
+      "example": "eju-02-008-a-example"
+    }
+  },
+  {
+    "id": "eju-01-007-a",
+    "version": 1,
+    "kind": "pattern",
+    "surface": "〜わけではない",
+    "reading": "〜わけではない",
+    "baseForm": "",
+    "sense": "并不是……；本例表示“并非所有人都……”",
+    "meaningZh": "并不是……；本例表示“并非所有人都……”",
+    "exampleJa": "すべての学生が賛成しているわけではない。",
+    "exampleZh": "并非所有学生都赞成。",
+    "exampleOrigin": "authored",
+    "sources": [
+      {
+        "file": "EJU日语1.pages",
+        "number": 7,
+        "raw": "わけではない　不是"
+      }
+    ],
+    "collocations": [],
+    "noteZh": "注意否定范围：不是“所有学生都反对”。",
+    "relatedIds": [],
+    "examUses": [
+      "listening",
+      "reading"
+    ],
+    "topic": "否定范围",
+    "packId": "development-five",
+    "priority": 1,
+    "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+    "sequence": 4,
+    "textStatus": "draft",
+    "evidence": [],
+    "listenText": "すべての学生が賛成しているわけではない。",
+    "audio": {
+      "listen": "eju-01-007-a-listen",
+      "example": "eju-01-007-a-example"
+    }
+  }
+]

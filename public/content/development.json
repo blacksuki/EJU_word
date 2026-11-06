@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "version": "development-five-v1",
+  "purpose": "personal_study",
+  "items": [
+    {
+      "id": "eju-03-004-a",
+      "version": 1,
+      "kind": "word",
+      "surface": "分析",
+      "reading": "ぶんせき",
+      "baseForm": "分析",
+      "sense": "分析、研究事物的构成或原因",
+      "meaningZh": "分析、研究事物的构成或原因",
+      "exampleJa": "調査の結果を分析します。",
+      "exampleZh": "分析调查结果。",
+      "exampleOrigin": "authored",
+      "sources": [
+        {
+          "file": "EJU日语3.pages",
+          "number": 4,
+          "raw": "ぶんせき　分析"
+        }
+      ],
+      "collocations": [],
+      "noteZh": "",
+      "relatedIds": [],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "topic": "研究说明",
+      "packId": "development-five",
+      "priority": 1,
+      "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+      "sequence": 0,
+      "textStatus": "draft",
+      "evidence": [],
+      "listenText": "分析",
+      "audio": {
+        "listen": "eju-03-004-a-listen",
+        "example": "eju-03-004-a-example"
+      }
+    },
+    {
+      "id": "eju-02-004-a",
+      "version": 1,
+      "kind": "word",
+      "surface": "課題",
+      "reading": "かだい",
+      "baseForm": "課題",
+      "sense": "课题；需要解决的问题或完成的任务",
+      "meaningZh": "课题；需要解决的问题或完成的任务",
+      "exampleJa": "今日の課題を提出してください。",
+      "exampleZh": "请提交今天的作业。",
+      "exampleOrigin": "authored",
+      "sources": [
+        {
+          "file": "EJU日语2.pages",
+          "number": 4,
+          "raw": "かだい　課題　课题"
+        }
+      ],
+      "collocations": [],
+      "noteZh": "",
+      "relatedIds": [],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "topic": "校园学习",
+      "packId": "development-five",
+      "priority": 1,
+      "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+      "sequence": 1,
+      "textStatus": "draft",
+      "evidence": [],
+      "listenText": "課題",
+      "audio": {
+        "listen": "eju-02-004-a-listen",
+        "example": "eju-02-004-a-example"
+      }
+    },
+    {
+      "id": "eju-01-031-a",
+      "version": 1,
+      "kind": "phrase",
+      "surface": "手間をかける",
+      "reading": "てまをかける",
+      "baseForm": "かける",
+      "sense": "花费时间和精力",
+      "meaningZh": "花费时间和精力",
+      "exampleJa": "この料理は手間をかけて作りました。",
+      "exampleZh": "这道菜花了时间和精力制作。",
+      "exampleOrigin": "authored",
+      "sources": [
+        {
+          "file": "EJU日语1.pages",
+          "number": 31,
+          "raw": "手間をかける　てまをかける　花功夫"
+        }
+      ],
+      "collocations": [],
+      "noteZh": "",
+      "relatedIds": [],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "topic": "时间与行动",
+      "packId": "development-five",
+      "priority": 1,
+      "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+      "sequence": 2,
+      "textStatus": "draft",
+      "evidence": [],
+      "listenText": "手間をかける",
+      "audio": {
+        "listen": "eju-01-031-a-listen",
+        "example": "eju-01-031-a-example"
+      }
+    },
+    {
+      "id": "eju-02-008-a",
+      "version": 1,
+      "kind": "form",
+      "surface": "探せる",
+      "reading": "さがせる",
+      "baseForm": "探す",
+      "sense": "能寻找、能查找；「探す」的可能形",
+      "meaningZh": "能寻找、能查找；「探す」的可能形",
+      "exampleJa": "図書館で必要な資料を探せます。",
+      "exampleZh": "可以在图书馆查找需要的资料。",
+      "exampleOrigin": "authored",
+      "sources": [
+        {
+          "file": "EJU日语2.pages",
+          "number": 8,
+          "raw": "さがせる　探せる　能找到"
+        }
+      ],
+      "collocations": [],
+      "noteZh": "可能形不保证一定找到；实际含义取决于语境。",
+      "relatedIds": [],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "topic": "校园学习",
+      "packId": "development-five",
+      "priority": 1,
+      "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+      "sequence": 3,
+      "textStatus": "draft",
+      "evidence": [],
+      "listenText": "探せる",
+      "audio": {
+        "listen": "eju-02-008-a-listen",
+        "example": "eju-02-008-a-example"
+      }
+    },
+    {
+      "id": "eju-01-007-a",
+      "version": 1,
+      "kind": "pattern",
+      "surface": "〜わけではない",
+      "reading": "〜わけではない",
+      "baseForm": "",
+      "sense": "并不是……；本例表示“并非所有人都……”",
+      "meaningZh": "并不是……；本例表示“并非所有人都……”",
+      "exampleJa": "すべての学生が賛成しているわけではない。",
+      "exampleZh": "并非所有学生都赞成。",
+      "exampleOrigin": "authored",
+      "sources": [
+        {
+          "file": "EJU日语1.pages",
+          "number": 7,
+          "raw": "わけではない　不是"
+        }
+      ],
+      "collocations": [],
+      "noteZh": "注意否定范围：不是“所有学生都反对”。",
+      "relatedIds": [],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "topic": "否定范围",
+      "packId": "development-five",
+      "priority": 1,
+      "priorityReason": "来自学生样例，仅用于第一阶段功能验证",
+      "sequence": 4,
+      "textStatus": "draft",
+      "evidence": [],
+      "listenText": "すべての学生が賛成しているわけではない。",
+      "audio": {
+        "listen": "eju-01-007-a-listen",
+        "example": "eju-01-007-a-example"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "eju-03-004-a-listen",
+      "itemId": "eju-03-004-a",
+      "role": "listen",
+      "text": "分析",
+      "url": "/audio/eju-03-004-a-listen.mp3",
+      "sha256": "62d0c40070bdf2fa173e2d26fed54770a92bc947ce894ff1711977ef10dc7022",
+      "bytes": 10700,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-03-004-a-example",
+      "itemId": "eju-03-004-a",
+      "role": "example",
+      "text": "調査の結果を分析します。",
+      "url": "/audio/eju-03-004-a-example.mp3",
+      "sha256": "9bb8cc510c968034c0ce9320bd7a1ae2465dbb958942b2e731816db3d83cdd6e",
+      "bytes": 29132,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-02-004-a-listen",
+      "itemId": "eju-02-004-a",
+      "role": "listen",
+      "text": "課題",
+      "url": "/audio/eju-02-004-a-listen.mp3",
+      "sha256": "a7365030906c7fadacf8b74af1d2f7760f667205d52ab76824dd74fd4493382b",
+      "bytes": 8684,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-02-004-a-example",
+      "itemId": "eju-02-004-a",
+      "role": "example",
+      "text": "今日の課題を提出してください。",
+      "url": "/audio/eju-02-004-a-example.mp3",
+      "sha256": "1c409fae385e8568b55476befb1b95c5761b371e676be9cda92abc643ae67bd9",
+      "bytes": 34028,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-01-031-a-listen",
+      "itemId": "eju-01-031-a",
+      "role": "listen",
+      "text": "手間をかける",
+      "url": "/audio/eju-01-031-a-listen.mp3",
+      "sha256": "fd3aadacb16fe6af5007743b87b7e0736fd146d45c095f62a7d1304636795bea",
+      "bytes": 14444,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-01-031-a-example",
+      "itemId": "eju-01-031-a",
+      "role": "example",
+      "text": "この料理は手間をかけて作りました。",
+      "url": "/audio/eju-01-031-a-example.mp3",
+      "sha256": "bdfe4dd453586cc9c84a10ecfdec0777785492d81d880d5feabaeb4b8d84afc4",
+      "bytes": 36332,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-02-008-a-listen",
+      "itemId": "eju-02-008-a",
+      "role": "listen",
+      "text": "探せる",
+      "url": "/audio/eju-02-008-a-listen.mp3",
+      "sha256": "90843bcb8f93075356bcf131a0e30c5ac88dbfebabbf5d828a73da97b278dac6",
+      "bytes": 10700,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-02-008-a-example",
+      "itemId": "eju-02-008-a",
+      "role": "example",
+      "text": "図書館で必要な資料を探せます。",
+      "url": "/audio/eju-02-008-a-example.mp3",
+      "sha256": "b09b38d0d51eb4443c9ded61b2637c178c5e53abd7232132250cf1b90a0bd651",
+      "bytes": 39212,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-01-007-a-listen",
+      "itemId": "eju-01-007-a",
+      "role": "listen",
+      "text": "すべての学生が賛成しているわけではない。",
+      "url": "/audio/eju-01-007-a-listen.mp3",
+      "sha256": "f448e5ead6c60797b03ce9d8764ece52dfb32be472335353966022a2cbe1113d",
+      "bytes": 42380,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    },
+    {
+      "id": "eju-01-007-a-example",
+      "itemId": "eju-01-007-a",
+      "role": "example",
+      "text": "すべての学生が賛成しているわけではない。",
+      "url": "/audio/eju-01-007-a-example.mp3",
+      "sha256": "f448e5ead6c60797b03ce9d8764ece52dfb32be472335353966022a2cbe1113d",
+      "bytes": 42380,
+      "status": "human_accepted",
+      "engine": "macOS Kyoko"
+    }
+  ],
+  "humanAudioReview": {
+    "id": "user-listening-2026-11-05",
+    "method": "human_listening",
+    "reviewer": "user",
+    "reviewedOn": "2026-11-05",
+    "statement": "用户确认：5条音频已经完成人工听审，效果可以接受；包含词语和例句，共10段音频。",
+    "assets": [
+      {
+        "id": "eju-03-004-a-listen",
+        "sha256": "62d0c40070bdf2fa173e2d26fed54770a92bc947ce894ff1711977ef10dc7022"
+      },
+      {
+        "id": "eju-03-004-a-example",
+        "sha256": "9bb8cc510c968034c0ce9320bd7a1ae2465dbb958942b2e731816db3d83cdd6e"
+      },
+      {
+        "id": "eju-02-004-a-listen",
+        "sha256": "a7365030906c7fadacf8b74af1d2f7760f667205d52ab76824dd74fd4493382b"
+      },
+      {
+        "id": "eju-02-004-a-example",
+        "sha256": "1c409fae385e8568b55476befb1b95c5761b371e676be9cda92abc643ae67bd9"
+      },
+      {
+        "id": "eju-01-031-a-listen",
+        "sha256": "fd3aadacb16fe6af5007743b87b7e0736fd146d45c095f62a7d1304636795bea"
+      },
+      {
+        "id": "eju-01-031-a-example",
+        "sha256": "bdfe4dd453586cc9c84a10ecfdec0777785492d81d880d5feabaeb4b8d84afc4"
+      },
+      {
+        "id": "eju-02-008-a-listen",
+        "sha256": "90843bcb8f93075356bcf131a0e30c5ac88dbfebabbf5d828a73da97b278dac6"
+      },
+      {
+        "id": "eju-02-008-a-example",
+        "sha256": "b09b38d0d51eb4443c9ded61b2637c178c5e53abd7232132250cf1b90a0bd651"
+      },
+      {
+        "id": "eju-01-007-a-listen",
+        "sha256": "f448e5ead6c60797b03ce9d8764ece52dfb32be472335353966022a2cbe1113d"
+      },
+      {
+        "id": "eju-01-007-a-example",
+        "sha256": "f448e5ead6c60797b03ce9d8764ece52dfb32be472335353966022a2cbe1113d"
+      }
+    ]
+  }
+}

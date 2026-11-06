@@ -1,0 +1,333 @@
+{
+  "id": "eju-50-text-2026-11-06",
+  "reviewedOn": "2026-11-06",
+  "method": "independent_ai_text_review",
+  "reviewerRunId": "/root/review_50_expansion",
+  "verdict": "pass",
+  "itemsSha256": "1671726b69024326e7dcbffff739dd3f195e109940961d09d68d457f611a84f5",
+  "reviewedDraftItemsSha256": "870927cd7b43aad554e03782d762f5321607c853904ade3edad01e77d302e8b9",
+  "inheritedReviewId": "eju-20-text-2026-11-06",
+  "scope": [
+    "new_30_reading_meaning_examples_translations",
+    "all_50_identity_order_prerequisites",
+    "source_match_coordinates_and_exclusions",
+    "cli_20_50_contract"
+  ],
+  "audioReview": "not_performed",
+  "items": [
+    {
+      "itemId": "eju-core-001",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-002",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-003",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-004",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-005",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-006",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-007",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-008",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-009",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-010",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-011",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-012",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-013",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-014",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-015",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-03-004-a",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-017",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-018",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-019",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-020",
+      "verdict": "pass",
+      "basis": "unchanged_inherited_text_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-021",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-022",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-023",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-024",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-025",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-026",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-027",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-028",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-029",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-030",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-031",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-032",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-033",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-034",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-035",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-036",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-037",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-038",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-039",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-040",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-041",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-042",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-043",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-044",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-045",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-046",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-047",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-048",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-049",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-050",
+      "verdict": "pass",
+      "basis": "independent_new_item_review",
+      "issues": []
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "severity": "P2",
+      "itemId": "eju-core-021",
+      "issue": "Bibliographic title was counted",
+      "resolution": "Excluded 2017_1-0 p11 offset513; 36 occurrences / 3 sessions"
+    },
+    {
+      "severity": "P2",
+      "itemId": "eju-core-049",
+      "issue": "Publisher name note was counted",
+      "resolution": "Excluded 2017_1-0 p9 offset548; 3 occurrences / 2 sessions"
+    }
+  ]
+}

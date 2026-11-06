@@ -1,0 +1,9 @@
+{
+  "textStatus": "draft",
+  "audioStatus": "unavailable",
+  "reason": "No OpenAI API key or direct audio-review connector available. macOS Kyoko assets are development fixtures only, not approved learning audio.",
+  "independentAudioReviews": [],
+  "sources": "Original notes read during earlier sample review; examples authored for this development build.",
+  "historical": true,
+  "currentHumanReview": "human-listening-2026-11-05.json"
+}

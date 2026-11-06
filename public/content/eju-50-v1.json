@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": 1,
+  "version": "eju-50-v1",
+  "purpose": "personal_study",
+  "units": [
+    {
+      "id": "u01",
+      "title": "先听清关系与要求",
+      "goal": "抓对象、方法、条件、对比及理由；校园任务与逻辑表达穿插。",
+      "itemIds": [
+        "eju-core-001",
+        "eju-core-002",
+        "eju-core-003",
+        "eju-core-004",
+        "eju-core-005",
+        "eju-core-006",
+        "eju-core-007",
+        "eju-core-008",
+        "eju-core-009",
+        "eju-core-010"
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "再理解数据与判断",
+      "goal": "从结果和调查进入图表、分析、趋势和限定判断。",
+      "itemIds": [
+        "eju-core-011",
+        "eju-core-012",
+        "eju-core-013",
+        "eju-core-014",
+        "eju-core-015",
+        "eju-03-004-a",
+        "eju-core-017",
+        "eju-core-018",
+        "eju-core-019",
+        "eju-core-020"
+      ]
+    },
+    {
+      "id": "u03",
+      "title": "听清说明与行动",
+      "goal": "交替练习信息判断、转折、校园行动和意见表达。",
+      "itemIds": [
+        "eju-core-021",
+        "eju-core-022",
+        "eju-core-023",
+        "eju-core-024",
+        "eju-core-025",
+        "eju-core-026",
+        "eju-core-027",
+        "eju-core-028",
+        "eju-core-029",
+        "eju-core-030"
+      ]
+    },
+    {
+      "id": "u04",
+      "title": "理解证据与解释",
+      "goal": "从理解与关联走向评价、原因、因素及限定结论。",
+      "itemIds": [
+        "eju-core-031",
+        "eju-core-032",
+        "eju-core-033",
+        "eju-core-034",
+        "eju-core-035",
+        "eju-core-036",
+        "eju-core-037",
+        "eju-core-038",
+        "eju-core-039",
+        "eju-core-040"
+      ]
+    },
+    {
+      "id": "u05",
+      "title": "读懂社会资料与边界",
+      "goal": "在社会和校园话题中判断时间、数值边界及比较关系。",
+      "itemIds": [
+        "eju-core-041",
+        "eju-core-042",
+        "eju-core-043",
+        "eju-core-044",
+        "eju-core-045",
+        "eju-core-046",
+        "eju-core-047",
+        "eju-core-048",
+        "eju-core-049",
+        "eju-core-050"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "logic",
+      "label": "论述与逻辑"
+    },
+    {
+      "id": "research",
+      "label": "调查与研究"
+    },
+    {
+      "id": "data",
+      "label": "图表与变化"
+    },
+    {
+      "id": "campus",
+      "label": "校园事务"
+    }
+  ],
+  "humanAudioReview": {
+    "id": "eju-50-human-listening-2026-11-06",
+    "method": "human_listening",
+    "reviewer": "user",
+    "reviewedOn": "2026-11-06",
+    "statement": "听审完成符合要求",
+    "assets": [
+      {
+        "id": "7e3ad00532eb5b7ef92c08655acd2d9ddc5d05ced5589882efd5da43c0290a53",
+        "sha256": "2be5b82196e83951a854cbb5068654b48c2d1c9b89906e28eebde6331863758b"
+      },
+      {
+        "id": "6c0f4e287ee9641e480ad353915cd3a42df00fbeb1596db81b403af9e7454a86",
+        "sha256": "545048602db6be71ba4c859664a109ff91b0b2e267bf5147d5991493576ac05f"
+      },
+      {
+        "id": "9da6bc0a218adcb3cf8346ce1e367efae35a290d25f9641b6bb1b77a287c622b",
+        "sha256": "3c7f75706f265e33b80e41b654579c724fdb6bfdf4405ffcd784cc65572e0b23"
+      },
+      {
+        "id": "70ddeb2b94bbfb4b05d976d3e18c9abb11bead988658349e2b979cbacaf447d5",
+        "sha256": "00fd631c2825f09217c8c8382e70b05b772ea047a7ec6e755375b48fa919374c"
+      },
+      {
+        "id": "874c54eaf64c0468705ea4dcbb20f12f7620543324480e681b2ab575dddc8586",
+        "sha256": "9412c550a8708434a4c6a8821c9763780d3f288956d69474f93b48c1c763aacc"
+      },
+      {
+        "id": "6a258c5981777696fc84526850a31eec4f16f7b57f6ea9511728d1d8b41a1af6",
+        "sha256": "752c49e412858f129378a102b2a9449770578b86f84aa8ab765e12a1b9f4d559"
+      },
+      {
+        "id": "d51153a376c69c0c99215197d1175d801414d375b0e0e0c0f1585a2d70da8b87",
+        "sha256": "cedda13cac4ac1b5328b485224f502c912fd4665ba21dc9d75487c814de24750"
+      },
+      {
+        "id": "4d611d301264946d23c1dcf19f718e3fb94ad1a0783ce8df368a6a2b6c7926c7",
+        "sha256": "fd5aab45f55133d88f1d7dc9f274e8622f96e0f46ec2dc20d11e3c01d0a0e4c6"
+      },
+      {
+        "id": "a8730f4bf215c796cea517e94a68459d906c020c2ddf7e41b80d3236ed374cb2",
+        "sha256": "44ed56b4d73b6e968c9d9e9952e8add1eef6ccc2d1ad75057ec10ac8ce8d6375"
+      },
+      {
+        "id": "0516555bd0673e0b8823c9e8bae694856d78079d31744ffdc52e56864e00dec4",
+        "sha256": "14cd1155b39bbe568e698f6864c5dfe580e82c4f02f9f9aae51fcc92c74b7c74"
+      },
+      {
+        "id": "7cee9243b964717fdeca86855089a675e7ac71fdf32bbb4282b749de71f3e92a",
+        "sha256": "1e40de03d6d733322ded4e704526f36a8d8eb73cc66965efd9ad3134d972c158"
+      },
+      {
+        "id": "6b3ac68b7c08c609d606dfffbacc04e1d47cb963596f10623da06b10ddc74f2c",
+        "sha256": "d8cb37d0fdc3eb28946d73d5503cf12727e9409bdda94a1a304049f33c660cef"
+      },
+      {
+        "id": "2bee2e883cf4cdbc16e2c29e98de00b729f5e2f2cfbecf16952c362b534cf51b",
+        "sha256": "a21f2fd6220f22aaae9b7cf4f0f6dc16a92ca3c782fd48fa16af0a223fd43152"
+      },
+      {
+        "id": "1988b255775d3b8411498d0cf2ae340bb9cec8f36cfbad2daff825ad271e836c",
+        "sha256": "9cd486e72d0b6ba99024f52b8f19e2741ec2906e0c9526e3ca48e2460f1fb4ca"
+      },
+      {
+        "id": "b876fd9ebefc85e161b2b5b76d26922b844242c6beadf8809a3e260a334547bf",
+        "sha256": "2eee7e347a42f3a22acaa4ae6bee0576751b4c7c919f85f15da9c483e41ea28c"
+      },
+      {
+        "id": "30b7fce203dd54bb0b9897904b0ce83ab11625b0394c3c9a42f43a361115f83e",
+        "sha256": "34523fd5c317a064482b9f0697a6643dcd574f5d341c7594ca01eae9c65f9876"
+      },
+      {
+        "id": "da2b2cda9350dbaf8d529afd8ddc3b4e2409ab70586975b8d15f7cbf53625c86",
+        "sha256": "47150160dab92343b1eebd33c8eb3f697394f1cd860ef7f1618595b321d9651a"
+      },
+      {
+        "id": "a8980eaf2109bd5938111ee96e4605d2757f847577f70e1cdf5953a49a589f1f",
+        "sha256": "609fcf9aaf235f3e45c1bd1147e514437003579da3c3d570a974b84cafb20b9d"
+      },
+      {
+        "id": "9cc12c09e047fcd27469a12944905973c6d6ffd008f899e4063e79d7f626aa7e",
+        "sha256": "4a7456741bd79698b9116b916f30d786b630dd74b619e10ff34f1de49c23248a"
+      },
+      {
+        "id": "82c9114131b7f4f464795757c8d7d98aab36f1fc25b6bb30e15e2945551751a5",
+        "sha256": "14f92b4a81db0285681ae944d5a05189019c8f31e48373c8dd18f8cfaf4694e3"
+      },
+      {
+        "id": "6d17207b00f548225daaef6bc15766303e3a890951a5feeab91e7b09994fae11",
+        "sha256": "ad69d8377fab3c1390296763776e3affdac9ed99bd7f6692dea77949f3a12dc3"
+      },
+      {
+        "id": "381bbdc71ed78d5d63496f711e0ee290a4028b4bd54b8a6550cb3b8acf06188e",
+        "sha256": "f9964038c693771f086e4547cc5f1d9454e69693ee7b005b4b21d2a271125844"
+      },
+      {
+        "id": "629efeb581affa4396a287240c74f569d866f62935bc15ab6ad5aa6e7d7a1396",
+        "sha256": "492caf1d7c1260c1a4fe7f9a7fee8140757beeab8c1e2d178970be30c61ca59e"
+      },
+      {
+        "id": "67118ed1f4282bb9bfe1e37cafd56753965f650467c9981d5327812c516326cf",
+        "sha256": "f2b44bef998441c7cfdf53cbfb87e0ee2309988f7a63d0418dadf1fc03be5388"
+      },
+      {
+        "id": "81782d8a7a2587c388e7a871133f2166a31f9111864e0f87ae0980a9f75d8a96",
+        "sha256": "8c5e5378293989d762ef98948a33508e8decca5251bf560ece64ae73572526f7"
+      },
+      {
+        "id": "e89e0b0ec7daf5ce0033c57dd5243c32b05bcb3c6375193bf35a5ef40baad66b",
+        "sha256": "f9d65ddae4af0f76d31c26e37ca1eb6df597049807cad5a71bb96e578668e0d6"
+      },
+      {
+        "id": "f049c2bf84b1f6bbfcdef5ffab56737e0516ea785ba841e07682e332e300fa6a",
+        "sha256": "0609ab5d64ffd8755d59b2053aa24d027cd220f440ded530140f02e1496616f6"
+      },
+      {
+        "id": "526ea021da7d2c79a495da267d50aba868cb33740d703932956961cf1663f6ff",
+        "sha256": "9f9faece1f95c2b5d2f890c8c13cc42b7ba53d55a70654dc063601bc7a866df4"
+      },
+      {
+        "id": "28039e7a743afe0baeeb238166e08e88e1fc694656c81e4888760968c74b4855",
+        "sha256": "5361ae901792b85ccc6e9c52aa7f15884cd5a214b8518c4159130fdaa347c028"
+      },
+      {
+        "id": "9594dc6487a4c9be4e7f0b20b3082c462219e2c30248dbf3138eff171b84a023",
+        "sha256": "1dc57a524e65def7f603f94cfbdc154bcaf00527183f355513d13d9b5e8aab4f"
+      },
+      {
+        "id": "56beb8c61ba6eb13b8e631efd4560a5d27eac95661c71c507aa8b6396c3b9c42",
+        "sha256": "9eee38db57084d037d3ab87332a43b61d524a2eaf7c3c14ea54909166208d7c0"
+      },
+      {
+        "id": "20353fc9dfb2fbf19f50445b282fb5ead34fdcff4a868db3100268d3cc3c4b23",
+        "sha256": "9197863a5f5e576b55c57a7401d257c3f29b162883a0f039e78b71b00a84275e"
+      },
+      {
+        "id": "3db752b6e137d4b20a64620ddff678457f15a24bccce0277edc98b177406c67c",
+        "sha256": "e7e3fe7fba502aecd5670c0c39119ead1cb4a8252e82465cffadf91c73ef316a"
+      },
+      {
+        "id": "cd4211abdcbe0be77ac3cc7e57ef9e9003fb4bed4b5c8e0cd0e061007f372a13",
+        "sha256": "75754846e3df4ebdf388d4854364d20bae2ffdfebbece707d7dc547fad611b1a"
+      },
+      {
+        "id": "403a6541ad389c41fe2189936f33edcbff8ef0a83ba968e53393d6ad5df076fd",
+        "sha256": "29e08f05bdcc8445fb236f16b833c28b1adf72bd9e153c082dddac3469d1c949"
+      },
+      {
+        "id": "83de40708ed2ba3b6962082e1406560ef4f69a3d00ead2855c0d31e2734deb9a",
+        "sha256": "422bc44ddfe5fbe1bb4e2740a0e129e1fbb61fd5582307fd96bc7c6524608c7b"
+      },
+      {
+        "id": "898b96cf0d5490643e234ded36a94aedd35c7de3dcd1bfa6c77f1357eb3e51d6",
+        "sha256": "2cf71e30902770aa592f88dabe70c4e58da32fda89dc9d6362a6ee4345e71938"
+      },
+      {
+        "id": "9e6a80037ed9ba1afd115c9eccd3678120354242509afa7dd9ad252ce9c1c6b9",
+        "sha256": "1c1829e19ea579b2af1527495065be53935b3d45f2facf7d89d9b2c292808599"
+      },
+      {
+        "id": "794c8bc8b98d5a2afa35ec2b9215fb39b62db1175b6e51bd9948ff7f2d94b3f6",
+        "sha256": "5eb6a290948bc3f741c6fcd1519f0a1f45defa4c6b92670204bb89b6b7da78c0"
+      },
+      {
+        "id": "c08355335bf128c257b8bd1bb4886cee6336e844c5ce16860fc30590988ba56b",
+        "sha256": "c3649aa8eaf17da4fad8331e3e0a1a9d06012e3cbea2fba84ab6e027d7ae0bad"
+      },
+      {
+        "id": "ed507f770727c32d788d0f4210fd0607794ebc6cde6d7b68261178e24e8066da",
+        "sha256": "ee382bd1614ac090ffa5a341bfb65a45cfe4ae448bfbc89bb1c57be38d1d14e5"
+      },
+      {
+        "id": "5a8cc9136ee6723f9ac7455e2fa7791579c2f2d1195c3acc34fb428109f1d419",
+        "sha256": "00133e5280c01571ec9d22b4499db2f02e8d03d7e7cf3f42f6dd87a12ddcc3ff"
+      },
+      {
+        "id": "e80454259f398e85276f8334252775f776cd4d5d6f45ce6e3b063d4530a034ba",
+        "sha256": "81a495a6a35a6f3501ef814c3dfa04a520e3c63946525961dec0146d491f3426"
+      },
+      {
+        "id": "987f714a4ced647b7c68cc0f0ef1b4017d4fe091025a1c5c6064cedca5c6bb50",
+        "sha256": "c5d8d94b774493140f63009346eecd7c02c52b6eaf9b30b56011fa06e902b5ef"
+      },
+      {
+        "id": "b9f1e168be94e4242b95804298574719d2b075851ca95fe70414165bffaabc76",
+        "sha256": "6c2b89da1e9aa15f45bc73053ea574808bde421b600057e362351c186d47a75b"
+      },
+      {
+        "id": "2d1e0720c7dced484d7e235ac82280a74c23ce7c1d8c07f165bb676dc718da81",
+        "sha256": "a7c53c21266e18cd6d1308a76cd73843f765ffc9e58382273d362be980df0933"
+      },
+      {
+        "id": "1ed58127e83fcd176afd60a53dae974c81f1ec8c21c93d4ad442b57a5f98c65c",
+        "sha256": "8cc7c31086767567f93b6fc0118bf2e8a7cbdb1763dfe00eacc0f363b5bbf7eb"
+      },
+      {
+        "id": "cff9ba7a27611513074574ae4c3131d1e2d36ab8ef7204f543289e9308249c45",
+        "sha256": "375110f74b97d58b11e191a928bf6ef742084756417c0b79b69b69ff1e647791"
+      },
+      {
+        "id": "121c9e9a60496a198b7926846f20d34b2cbe75f2c8bdc21db338e4fc7c403443",
+        "sha256": "18fd718a9e812fb1e3c73d8bd3627158e87ebee92107c0046302816a8ec768f8"
+      },
+      {
+        "id": "78a759de9323789d60183cbd77aaec215024d2692c6dac5acbfcf47e25edefca",
+        "sha256": "52fc570b40eb57174d6ac12634d94ccb89e705cf1f71faa1f2f1d39ed2c2d3df"
+      },
+      {
+        "id": "e90def9b42a9d54a73e578e82fcb3908f7600f24335232f72243991276cd8224",
+        "sha256": "f3c6a3d8ceb9c5018541580f87c1a58df5267ebb938e40c26dcd0eeb63054d32"
+      },
+      {
+        "id": "b421c01c58c6ea002ec4838cf6cd129bff1fb05bd6f161eee915bb8298442af5",
+        "sha256": "e003b48dd2c2e5b522d1b79fe175299565481a6a962dac9b854f4b7cf3dc7027"
+      },
+      {
+        "id": "d328807ed66c273af9aee9ccd546da8f12e2113e3b7f329867d8c7e6aab469d7",
+        "sha256": "4fb9ef14e62d6b7875250696f8cd6838edd2e0bd583040c601d31534f63f224b"
+      },
+      {
+        "id": "a50f4f8ee8c3d4675e4165c59ca373dea0763a3349f1855f52e1ad23e856c17f",
+        "sha256": "f93dbbdaa3e42f8dc96e6a1291c4dd59b0aca95d08cd7b1c78d7447bcef0287e"
+      },
+      {
+        "id": "6b7c11882968953084e2e644b74b0a847a3e7783d5ad4d81670d66774759c7bd",
+        "sha256": "31919f68ecab0b75206f0cf1c54d3d19c3d1fca0912a3c20f5cc8e0057ab7f25"
+      },
+      {
+        "id": "52f8dbc2ebaf48de70e348b038ff6ce2b5b21f596c276e3e9881a50a1a9cb67e",
+        "sha256": "81ade17c4086d45e849d7f484128a86ab3b8ce45571b12e19378c49b603657e4"
+      },
+      {
+        "id": "ba20f12772732978aa77bd4a965dd0b4e4dd6297fb1893ca6cdac2dcee4ac214",
+        "sha256": "6a987a514799f590819fdcc0412b376b988e9c20f37f31495e6404b68d9b9c0d"
+      },
+      {
+        "id": "1ad6539903dab18c5ef1b961ad1c76ca43da42e4f16d7a377c734c3051d336f9",
+        "sha256": "81f4f9ac4db689540a4b990f9f340022ef1aec8108756c3b0b3aa7ad299a8707"
+      },
+      {
+        "id": "af9f67525cb7290abd732fa7880313cf79ff32f0f3f7ff5349f60a3fec283ceb",
+        "sha256": "0434af60509940b0c7c88aa516ba0ba9da3507349760051f7689edc2ef072364"
+      },
+      {
+        "id": "3d8c37bf03ef0749c9f7283c01f330131fd3cfb466d5d7a5cc0d5a1faf5f69fe",
+        "sha256": "b5f061ee716e53f5403f6a130afed4a80303049b0805e57b975f70067669d73d"
+      },
+      {
+        "id": "e2a43f0cb9cde9f745ced26322c064976e2fb6102dc41530a1043d61aac79aa0",
+        "sha256": "a28990a3ada194167a0b98628309fa0ce8890f08f414256f6716830b5fb52a99"
+      },
+      {
+        "id": "65bd84c2a28ebb3e0a917a1dd1905706bdeabc2fc937e087886c8fcad17c4e2d",
+        "sha256": "f43123dff7438a8f631a1c0cb382734f62a9db3fdfb2a735fda175c723b07aa7"
+      },
+      {
+        "id": "4c3bc308338472b04495d1c140ff7e204b80f8d1b90c36d193e91f0d5ebe99f8",
+        "sha256": "cac0fc496d07ff2a718fb9d12263de65fc8e845778ea3b40cbcc007cb75f15e1"
+      },
+      {
+        "id": "e908699b7d8b954f86e06e681fad6de4265eee7cfd0255167dc3a1668631fb88",
+        "sha256": "6f7711af08b94301cb61055437c2217abd8c7118027080222e8a5eefae437795"
+      },
+      {
+        "id": "fbb4cc2af96162d23b5b4bc0171a8bcff9362d9d0c41a42efbae8e5d28d1dfb3",
+        "sha256": "7f34e21415fb419abcaea29f732ba6fd6ce6e9cf85f91a0b4aaec2127530fe9d"
+      },
+      {
+        "id": "64517d032eb0918e5df1c0ab008d2ca4a255cbd8471ec9a6aec62d3437d3a47a",
+        "sha256": "1192737951fda65641163d406cd96b00862a0c5661d06e98c44b39064b412e65"
+      },
+      {
+        "id": "4b60e1688801bb7ddb039a732c29a3f990a0393d73469aa4d07d1ceb100adcbc",
+        "sha256": "998fac2b22957dee523df906fd704632f9c257809aaf68a4a98a6660bc78e8a5"
+      },
+      {
+        "id": "1ba21b56bfbe3c54435fac89235d264f532d3594d06a9aa122780336d06ad547",
+        "sha256": "daf1a3116486ece7a1d53b8e9dc720b5da89782a396daeaee208cb191fd3de54"
+      },
+      {
+        "id": "bff03dbf949e0317732a0cd099e1add8604bb8abc4d0503031bc16c49ecf949b",
+        "sha256": "51d2073174e5acf1e5b65f897b86402e50ea44b8aeed8c19391ca9f952b831f6"
+      },
+      {
+        "id": "47ead44e0c4b2dfa144e473aada7e3b49ffc4512e20f9526d1ca03e8ddaeda3d",
+        "sha256": "cb715f1cbd238b74c5013afd017ed31cc7eadbc8a9fa9baee8bd3397cb9c3a80"
+      },
+      {
+        "id": "651e13fb13961140b2aa91f07173a791509c1ead6ce45394fddef03f265fef18",
+        "sha256": "c6ad874975efe10701c722e370d92438e11baf9dd09d997f57ebc2ddb1bb2058"
+      },
+      {
+        "id": "cdd59d2f089df2376d64947ea64bc6c7010a02da51da5ab0207d68a97072730e",
+        "sha256": "d0b46c82b4ae43764502d3701c2ff84603adc6410f6213e49f3754055da275b8"
+      },
+      {
+        "id": "842f163c8c79cfdb8985d6a048e9709b84d0eb288a71fa9ef8b4edf73c89cc7f",
+        "sha256": "ff60042b2b64ba73b8c25e8d214bffe88a63ef3d037ecc2f30f12f7dbd18612b"
+      },
+      {
+        "id": "83f9df7eafc1628376dcaaa3e611e52b8d57c1cea5c96e6bc1027c0f82a0d035",
+        "sha256": "4308da0cdf9092aa701557bc080189fb7fce800c7cc7fbe4c9f28771e0fe1666"
+      },
+      {
+        "id": "cd2dc375d0cdb401a4f78d5b353be6d0b195f48490f7aab0179be16dab88346e",
+        "sha256": "a70a99bd1b0c36a900485cea8a12503c2c3a0ecf629ef238c818834a201121a6"
+      },
+      {
+        "id": "6ff85b4b5c2c24374dd76a124862f354a8542a23a356ef7ac9ae86c4765fe0ad",
+        "sha256": "40e6725558a8b452cdc732bec02c849dfb08a31e6f8425a28935790f2cca1acd"
+      },
+      {
+        "id": "e5b42b29e4622ee6701cfeb9f2460ab0fc258cdb7244d09752231ebd059a4e31",
+        "sha256": "fda8c46d04a6f585baf4cf2668e9252c4606ae324258d3488ec275f553e931f6"
+      },
+      {
+        "id": "4842adbcd280883ad82a61d49826a0949e2e87e8899bcbd14b66a398c07f8037",
+        "sha256": "02d2c3a11ed83510817d911f0bae0bec6af2c40f89fe66e50428e0d190d41b8c"
+      },
+      {
+        "id": "88242bd09e01c9db0e4bd0d246c1d80b0439fdde4c8fd4610f3376ec98c1d5c7",
+        "sha256": "1b75e9c4c53f5d420ca7f69d2831318154eb6ae860b35e32239ad243fef9c87f"
+      },
+      {
+        "id": "a2b23a8cd4d915af96169748596f7015cabe63ddd26f5328146954ce98ab5f77",
+        "sha256": "2a602bd027b05429def8f73394d9ffc3607a090756ee091b83b501232a3264b4"
+      },
+      {
+        "id": "fbd1a72763acf554aaa0bd79211ffb0121c6a6f6afb92a9ddb0b417743d20f85",
+        "sha256": "84e32e1db84a90a6bcd8362be08b268815fb25c446c51fb3590e2358c880f93c"
+      },
+      {
+        "id": "9146c23cbcda21f24e2dc5585405d2de1a1ea99fbb7b572010217b4ecf433b3a",
+        "sha256": "248f2331401ec8a0a97d34e0e64b1efb29400e260f4d20d3efd12725515fb167"
+      },
+      {
+        "id": "fdf85c9b7a935b8bf9769e2f396be35be6d9922f95a767f3b6157cb7fde4efe7",
+        "sha256": "3d09d56f89dcdc3d299fb2900611e700e36c6b81dd78f87cd6ebba642706780a"
+      },
+      {
+        "id": "f067f7da2cc87691526e4c6a17339661c87f21c6bcc095c2a7f15a9b69be5d9b",
+        "sha256": "19c8bd40b978d8fd524a0cbf9c49f57e5df88a6c7d50aae915b60f9973866fba"
+      },
+      {
+        "id": "99a49344adebc0d2d3fa36e939ece322eecb2f1b66030af0f8f66cbb2568419f",
+        "sha256": "a04d23aa372d5ecc2b52cb8e82b6dd2673afa59c12cfb050a704b86b7765cd46"
+      },
+      {
+        "id": "8985e8cf41e3aa6788dd64ec53d3fd8bb52b7ffb525d13a6109328867f4dd30f",
+        "sha256": "854e4a8b4031aa472aa9fb527e8a57cfd72f7a86924c63a0750a5518c23291e5"
+      },
+      {
+        "id": "f7c532c2b710935250e2391a11eaf56459cac301e66db41e0b6176f1d090b2e9",
+        "sha256": "a0f2dd90b6662091f6eaa6e679a0e23af823db01a65f83639b5df7c7f4eee81c"
+      },
+      {
+        "id": "a16bc59e1945769c8b51fe14a078ae96c5310f0b6d0e5b5478907ee6f0365b31",
+        "sha256": "23ca7545065329984cb287ded750ac76fbba97a065ab6b3abcd56242ab54b53e"
+      },
+      {
+        "id": "afc8dc1d85fa07904b4a602d9cbfea9ac87154b4698edbcaff92ba8d32d2f2e4",
+        "sha256": "120136a314057c95778b9a463b1ae3e8a1a08c0084940942bb1ba4765b3f6984"
+      },
+      {
+        "id": "ff2d9212f1bb3737503e828fb31361d32f97361e72ef059c0f99b75172fe380b",
+        "sha256": "9dbcad54728bd2fb56efafed8d8c6691696abf4dbdda7df71703cee423773430"
+      },
+      {
+        "id": "f1fe166c7708190d16656436233347794e338193173878fc45c9004fae183086",
+        "sha256": "d520152538906244f9876cdf19933b1fed7584ede130da2556b28688fac4f670"
+      },
+      {
+        "id": "fee592a17e8baa91b1d55f77a3b0fdc41df8ce04a674d6d6579caa5ff0e6171c",
+        "sha256": "12ffee23b134c66228e3a10c6627ae6222624f734132942376df487e4cec8a8a"
+      },
+      {
+        "id": "289a478d56329c095107e2aaa47b660ccba2f43a78584a10f3ad4d5800933f0c",
+        "sha256": "77b03cd1fe67ace0f89a83cb993b40271e620daecc60a5f7c324fe2e282802a5"
+      },
+      {
+        "id": "13c53b95b46df73e65da8d2239f7ec2826d058538cd5ae5efd08d1fcd77d6905",
+        "sha256": "32c38b1a601ce6a0932260d188888f16c4e187e28ad6943d54fcc4572d481a85"
+      },
+      {
+        "id": "9b4579d5a5c0d5a1d6b245a01486f39b6a1733ab785a51bd2320347c13b47435",
+        "sha256": "aead6248135e18b99a21746b2e2269b193be8b2107bd8dfa53d2503fa6df1f30"
+      },
+      {
+        "id": "8e6e50ddcbcd0412a0d33baa2130095892da95348b9a40cdf16c9d35eec4ab32",
+        "sha256": "c0b38fdf916884acc837f6dcf79ce9eb2e5c5a07488651870dc999292b4a2bac"
+      },
+      {
+        "id": "58d1bcf4d7f1f6f3b17e910883d160a3a5c07926a369c252ca1e5febf701bc94",
+        "sha256": "54bc965271c0ca2510a1a49bb75b939375e0754fc0dac7f9171641eda6ba6a4a"
+      },
+      {
+        "id": "ee642f9ec91214e5b109d5f383513fe33924564f806d787b414d6b269d9201ab",
+        "sha256": "2e2cddacf68b1a4194d1d7e271b79a3bba59b854a15ac9eee75d75ece0ec8551"
+      },
+      {
+        "id": "6fa116f7b2f2b04c942f5e1f72c7d939372d3830ff942b7ac0b8ff2bae7300f9",
+        "sha256": "9249c4ea99fc67d1ce94940b0ab3e215b21bf7ade8e8d341c4064fa672faa8ec"
+      },
+      {
+        "id": "93f611ed5e193763527c50bf14d370b775c077bee7f7d2875171759b6383f686",
+        "sha256": "6e2e1f41e1e06afb7c0f922e32a70cbbeb2548a5c39d7adde784614da92839f3"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "eju-core-001",
+      "kind": "word",
+      "surface": "一方",
+      "reading": "いっぽう",
+      "baseForm": "一方",
+      "meaningZh": "另一方面；而（对比）",
+      "exampleJa": "この地域では人口が減っています。一方、駅の近くではマンションが増えています。",
+      "exampleZh": "这个地区的人口在减少，另一方面，车站附近的公寓楼在增加。",
+      "noteZh": "对比后项不一定完全相反；这里学习对比用法。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "7e3ad00532eb5b7ef92c08655acd2d9ddc5d05ced5589882efd5da43c0290a53",
+        "example": "6c0f4e287ee9641e480ad353915cd3a42df00fbeb1596db81b403af9e7454a86"
+      }
+    },
+    {
+      "id": "eju-core-002",
+      "kind": "word",
+      "surface": "対象",
+      "reading": "たいしょう",
+      "baseForm": "対象",
+      "meaningZh": "对象；适用范围",
+      "exampleJa": "この調査の対象は、大学一年生です。",
+      "exampleZh": "这项调查的对象是大学一年级学生。",
+      "noteZh": "搭配：対象とする、対象となる。不要与対照（对照）混淆。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "9da6bc0a218adcb3cf8346ce1e367efae35a290d25f9641b6bb1b77a287c622b",
+        "example": "70ddeb2b94bbfb4b05d976d3e18c9abb11bead988658349e2b979cbacaf447d5"
+      }
+    },
+    {
+      "id": "eju-core-003",
+      "kind": "word",
+      "surface": "方法",
+      "reading": "ほうほう",
+      "baseForm": "方法",
+      "meaningZh": "方法；做法",
+      "exampleJa": "申し込みの方法は、案内の最後に書いてあります。",
+      "exampleZh": "报名方法写在通知的最后。",
+      "noteZh": "搭配：方法を選ぶ、方法を説明する。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "874c54eaf64c0468705ea4dcbb20f12f7620543324480e681b2ab575dddc8586",
+        "example": "6a258c5981777696fc84526850a31eec4f16f7b57f6ea9511728d1d8b41a1af6"
+      }
+    },
+    {
+      "id": "eju-core-004",
+      "kind": "word",
+      "surface": "比較",
+      "reading": "ひかく",
+      "baseForm": "比較",
+      "meaningZh": "比较",
+      "exampleJa": "二つのグラフを比較すると、年齢による違いが分かります。",
+      "exampleZh": "比较两张图表，就能看出年龄带来的差异。",
+      "noteZh": "搭配：AとBを比較する；比較的（相对地）是另一用法，未计入本词频次。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "d51153a376c69c0c99215197d1175d801414d375b0e0e0c0f1585a2d70da8b87",
+        "example": "4d611d301264946d23c1dcf19f718e3fb94ad1a0783ce8df368a6a2b6c7926c7"
+      }
+    },
+    {
+      "id": "eju-core-005",
+      "kind": "word",
+      "surface": "資料",
+      "reading": "しりょう",
+      "baseForm": "資料",
+      "meaningZh": "资料",
+      "exampleJa": "発表の前に、配られた資料に目を通してください。",
+      "exampleZh": "请在发表前浏览一下发下来的资料。",
+      "noteZh": "此处是供阅读或研究的资料，不是材料的材质。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "a8730f4bf215c796cea517e94a68459d906c020c2ddf7e41b80d3236ed374cb2",
+        "example": "0516555bd0673e0b8823c9e8bae694856d78079d31744ffdc52e56864e00dec4"
+      }
+    },
+    {
+      "id": "eju-core-006",
+      "kind": "word",
+      "surface": "条件",
+      "reading": "じょうけん",
+      "baseForm": "条件",
+      "meaningZh": "条件",
+      "exampleJa": "この奨学金に申し込むには、二つの条件を満たす必要があります。",
+      "exampleZh": "申请这项奖学金，需要满足两个条件。",
+      "noteZh": "搭配：条件を満たす、条件が変わる。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "7cee9243b964717fdeca86855089a675e7ac71fdf32bbb4282b749de71f3e92a",
+        "example": "6b3ac68b7c08c609d606dfffbacc04e1d47cb963596f10623da06b10ddc74f2c"
+      }
+    },
+    {
+      "id": "eju-core-007",
+      "kind": "word",
+      "surface": "影響",
+      "reading": "えいきょう",
+      "baseForm": "影響",
+      "meaningZh": "影响",
+      "exampleJa": "睡眠不足は、授業中の集中力に影響を与えます。",
+      "exampleZh": "睡眠不足会影响上课时的注意力。",
+      "noteZh": "搭配：AがBに影響を与える；表达影响不等于证明因果。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "2bee2e883cf4cdbc16e2c29e98de00b729f5e2f2cfbecf16952c362b534cf51b",
+        "example": "1988b255775d3b8411498d0cf2ae340bb9cec8f36cfbad2daff825ad271e836c"
+      }
+    },
+    {
+      "id": "eju-core-008",
+      "kind": "word",
+      "surface": "締め切り",
+      "reading": "しめきり",
+      "baseForm": "締め切り",
+      "meaningZh": "截止时间；截止期限",
+      "exampleJa": "レポートの締め切りは金曜日の午後五時です。",
+      "exampleZh": "报告的截止时间是星期五下午五点。",
+      "noteZh": "也写作締切／締切り；本次频次仅统计指定表记，不自动合并。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "b876fd9ebefc85e161b2b5b76d26922b844242c6beadf8809a3e260a334547bf",
+        "example": "30b7fce203dd54bb0b9897904b0ce83ab11625b0394c3c9a42f43a361115f83e"
+      }
+    },
+    {
+      "id": "eju-core-009",
+      "kind": "word",
+      "surface": "理由",
+      "reading": "りゆう",
+      "baseForm": "理由",
+      "meaningZh": "理由；原因",
+      "exampleJa": "筆者がこの案に反対する理由は、費用が高すぎることです。",
+      "exampleZh": "作者反对这一方案的理由是费用过高。",
+      "noteZh": "理由是支持判断的说明，不要仅凭关键词选择答案。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "da2b2cda9350dbaf8d529afd8ddc3b4e2409ab70586975b8d15f7cbf53625c86",
+        "example": "a8980eaf2109bd5938111ee96e4605d2757f847577f70e1cdf5953a49a589f1f"
+      }
+    },
+    {
+      "id": "eju-core-010",
+      "kind": "word",
+      "surface": "つまり",
+      "reading": "つまり",
+      "baseForm": "つまり",
+      "meaningZh": "也就是说；总之",
+      "exampleJa": "この店では現金が使えません。つまり、カードなどで払う必要があります。",
+      "exampleZh": "这家店不能用现金，也就是说，需要用卡等方式支付。",
+      "noteZh": "后句概括或解释前句；不同于表示并列的それに。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "9cc12c09e047fcd27469a12944905973c6d6ffd008f899e4063e79d7f626aa7e",
+        "example": "82c9114131b7f4f464795757c8d7d98aab36f1fc25b6bb30e15e2945551751a5"
+      }
+    },
+    {
+      "id": "eju-core-011",
+      "kind": "word",
+      "surface": "結果",
+      "reading": "けっか",
+      "baseForm": "結果",
+      "meaningZh": "结果",
+      "exampleJa": "実験の結果を、表にまとめてください。",
+      "exampleZh": "请把实验结果整理成表格。",
+      "noteZh": "搭配：結果が出る、結果をまとめる。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "6d17207b00f548225daaef6bc15766303e3a890951a5feeab91e7b09994fae11",
+        "example": "381bbdc71ed78d5d63496f711e0ee290a4028b4bd54b8a6550cb3b8acf06188e"
+      }
+    },
+    {
+      "id": "eju-core-012",
+      "kind": "word",
+      "surface": "調査",
+      "reading": "ちょうさ",
+      "baseForm": "調査",
+      "meaningZh": "调查",
+      "exampleJa": "通学にかかる時間について、学生にアンケート調査を行いました。",
+      "exampleZh": "就通学所需时间，对学生进行了问卷调查。",
+      "noteZh": "本批试题正文统计未确认命中；仅书目标题有字面匹配，已排除。属于用途补充项，非样本高频词。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "629efeb581affa4396a287240c74f569d866f62935bc15ab6ad5aa6e7d7a1396",
+        "example": "67118ed1f4282bb9bfe1e37cafd56753965f650467c9981d5327812c516326cf"
+      }
+    },
+    {
+      "id": "eju-core-013",
+      "kind": "word",
+      "surface": "割合",
+      "reading": "わりあい",
+      "baseForm": "割合",
+      "meaningZh": "比例；比率",
+      "exampleJa": "電車で通学する学生の割合は、去年より高くなりました。",
+      "exampleZh": "乘电车通学的学生比例比去年提高了。",
+      "noteZh": "这里学习名词比例，不学习副词“比较、相当”的用法。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "81782d8a7a2587c388e7a871133f2166a31f9111864e0f87ae0980a9f75d8a96",
+        "example": "e89e0b0ec7daf5ce0033c57dd5243c32b05bcb3c6375193bf35a5ef40baad66b"
+      }
+    },
+    {
+      "id": "eju-core-014",
+      "kind": "word",
+      "surface": "特徴",
+      "reading": "とくちょう",
+      "baseForm": "特徴",
+      "meaningZh": "特征；特点",
+      "exampleJa": "この地域の気候の特徴は、夏でも気温が低いことです。",
+      "exampleZh": "这个地区的气候特点是，即使夏天气温也很低。",
+      "noteZh": "搭配：特徴がある、特徴を述べる。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "f049c2bf84b1f6bbfcdef5ffab56737e0516ea785ba841e07682e332e300fa6a",
+        "example": "526ea021da7d2c79a495da267d50aba868cb33740d703932956961cf1663f6ff"
+      }
+    },
+    {
+      "id": "eju-core-015",
+      "kind": "word",
+      "surface": "変化",
+      "reading": "へんか",
+      "baseForm": "変化",
+      "meaningZh": "变化",
+      "exampleJa": "このグラフは、一日の気温の変化を示しています。",
+      "exampleZh": "这张图表显示了一天中气温的变化。",
+      "noteZh": "变化不一定是增加，也可能减少或保持后再变化。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "28039e7a743afe0baeeb238166e08e88e1fc694656c81e4888760968c74b4855",
+        "example": "9594dc6487a4c9be4e7f0b20b3082c462219e2c30248dbf3138eff171b84a023"
+      }
+    },
+    {
+      "id": "eju-03-004-a",
+      "kind": "word",
+      "surface": "分析",
+      "reading": "ぶんせき",
+      "baseForm": "分析",
+      "meaningZh": "分析",
+      "exampleJa": "調査の結果を分析して、利用者が少ない理由を考えます。",
+      "exampleZh": "分析调查结果，思考使用人数较少的原因。",
+      "noteZh": "样本命中为复合词“分析力”；保留学生原有分析条目的 ID。",
+      "topic": "调查与研究",
+      "sources": [
+        {
+          "file": "EJU日语3.pages",
+          "number": 4,
+          "raw": "ぶんせき　分析"
+        }
+      ],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "56beb8c61ba6eb13b8e631efd4560a5d27eac95661c71c507aa8b6396c3b9c42",
+        "example": "20353fc9dfb2fbf19f50445b282fb5ead34fdcff4a868db3100268d3cc3c4b23"
+      }
+    },
+    {
+      "id": "eju-core-017",
+      "kind": "word",
+      "surface": "重要",
+      "reading": "じゅうよう",
+      "baseForm": "重要",
+      "meaningZh": "重要",
+      "exampleJa": "発表では、最も重要な点を先に説明してください。",
+      "exampleZh": "发表时，请先说明最重要的点。",
+      "noteZh": "重要な点／重要だ；不要误用成重要い。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "3db752b6e137d4b20a64620ddff678457f15a24bccce0277edc98b177406c67c",
+        "example": "cd4211abdcbe0be77ac3cc7e57ef9e9003fb4bed4b5c8e0cd0e061007f372a13"
+      }
+    },
+    {
+      "id": "eju-core-018",
+      "kind": "word",
+      "surface": "増加",
+      "reading": "ぞうか",
+      "baseForm": "増加",
+      "meaningZh": "增加",
+      "exampleJa": "図書館を夜に利用する学生が増加しています。",
+      "exampleZh": "夜间使用图书馆的学生正在增加。",
+      "noteZh": "搭配：人数が増加する；增加人数和提高比例不能直接等同。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "403a6541ad389c41fe2189936f33edcbff8ef0a83ba968e53393d6ad5df076fd",
+        "example": "83de40708ed2ba3b6962082e1406560ef4f69a3d00ead2855c0d31e2734deb9a"
+      }
+    },
+    {
+      "id": "eju-core-019",
+      "kind": "word",
+      "surface": "傾向",
+      "reading": "けいこう",
+      "baseForm": "傾向",
+      "meaningZh": "倾向；趋势",
+      "exampleJa": "この地域では、一人で暮らす高齢者が増える傾向があります。",
+      "exampleZh": "这个地区有独居老年人增加的趋势。",
+      "noteZh": "搭配：〜傾向がある；观察到倾向不意味着每个个体都如此。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "898b96cf0d5490643e234ded36a94aedd35c7de3dcd1bfa6c77f1357eb3e51d6",
+        "example": "9e6a80037ed9ba1afd115c9eccd3678120354242509afa7dd9ad252ce9c1c6b9"
+      }
+    },
+    {
+      "id": "eju-core-020",
+      "kind": "pattern",
+      "surface": "必ずしも〜ない",
+      "reading": "かならずしも〜ない",
+      "baseForm": "必ずしも〜ない",
+      "meaningZh": "未必；不一定",
+      "exampleJa": "資料が多くても、必ずしも良い発表になるとは限りません。",
+      "exampleZh": "即使资料很多，也未必能做出好的发表。",
+      "noteZh": "需与否定表达搭配；不是“绝对不”。短音频使用完整句，不读波浪号。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "794c8bc8b98d5a2afa35ec2b9215fb39b62db1175b6e51bd9948ff7f2d94b3f6",
+        "example": "c08355335bf128c257b8bd1bb4886cee6336e844c5ce16860fc30590988ba56b"
+      }
+    },
+    {
+      "id": "eju-core-021",
+      "kind": "word",
+      "surface": "情報",
+      "reading": "じょうほう",
+      "baseForm": "情報",
+      "meaningZh": "信息；消息",
+      "exampleJa": "インターネットの情報は、発信された日付も確認しましょう。",
+      "exampleZh": "对于互联网上的信息，也要确认其发布日期。",
+      "noteZh": "信息量大不代表正确；与資料（资料载体）区分。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "ed507f770727c32d788d0f4210fd0607794ebc6cde6d7b68261178e24e8066da",
+        "example": "5a8cc9136ee6723f9ac7455e2fa7791579c2f2d1195c3acc34fb428109f1d419"
+      }
+    },
+    {
+      "id": "eju-core-022",
+      "kind": "word",
+      "surface": "しかし",
+      "reading": "しかし",
+      "baseForm": "しかし",
+      "meaningZh": "但是；然而",
+      "exampleJa": "駅からは遠いです。しかし、家賃が安いので、この部屋を選びました。",
+      "exampleZh": "离车站很远，但是因为房租便宜，我选择了这间房。",
+      "noteZh": "后句转向与前句不同的方向；留意转折后真正强调的信息。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "e80454259f398e85276f8334252775f776cd4d5d6f45ce6e3b063d4530a034ba",
+        "example": "987f714a4ced647b7c68cc0f0ef1b4017d4fe091025a1c5c6064cedca5c6bb50"
+      }
+    },
+    {
+      "id": "eju-core-023",
+      "kind": "word",
+      "surface": "研究",
+      "reading": "けんきゅう",
+      "baseForm": "研究",
+      "meaningZh": "研究",
+      "exampleJa": "この研究では、照明の明るさと作業の速さの関係を調べます。",
+      "exampleZh": "这项研究考察照明亮度与工作速度的关系。",
+      "noteZh": "样本书目机构名及研究科、研究生不计入本义项；研究資料保留为同义复合词。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "b9f1e168be94e4242b95804298574719d2b075851ca95fe70414165bffaabc76",
+        "example": "2d1e0720c7dced484d7e235ac82280a74c23ce7c1d8c07f165bb676dc718da81"
+      }
+    },
+    {
+      "id": "eju-core-024",
+      "kind": "word",
+      "surface": "参加",
+      "reading": "さんか",
+      "baseForm": "参加",
+      "meaningZh": "参加",
+      "exampleJa": "説明会に参加できない人は、事前に事務室へ連絡してください。",
+      "exampleZh": "无法参加说明会的人，请提前联系事务室。",
+      "noteZh": "搭配：説明会に参加する。不是“说明会を参加する”。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "1ed58127e83fcd176afd60a53dae974c81f1ec8c21c93d4ad442b57a5f98c65c",
+        "example": "cff9ba7a27611513074574ae4c3131d1e2d36ab8ef7204f543289e9308249c45"
+      }
+    },
+    {
+      "id": "eju-core-025",
+      "kind": "word",
+      "surface": "判断",
+      "reading": "はんだん",
+      "baseForm": "判断",
+      "meaningZh": "判断",
+      "exampleJa": "一つの例だけで全体の傾向を判断することはできません。",
+      "exampleZh": "不能只凭一个例子判断整体趋势。",
+      "noteZh": "搭配：資料に基づいて判断する；判断与研究、分析不是同一过程。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "121c9e9a60496a198b7926846f20d34b2cbe75f2c8bdc21db338e4fc7c403443",
+        "example": "78a759de9323789d60183cbd77aaec215024d2692c6dac5acbfcf47e25edefca"
+      }
+    },
+    {
+      "id": "eju-core-026",
+      "kind": "word",
+      "surface": "利用",
+      "reading": "りよう",
+      "baseForm": "利用",
+      "meaningZh": "利用；使用",
+      "exampleJa": "この部屋は、予約した学生だけが利用できます。",
+      "exampleZh": "只有预约过的学生可以使用这个房间。",
+      "noteZh": "搭配：施設を利用する；注意主语或だけ造成的限制。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "e90def9b42a9d54a73e578e82fcb3908f7600f24335232f72243991276cd8224",
+        "example": "b421c01c58c6ea002ec4838cf6cd129bff1fb05bd6f161eee915bb8298442af5"
+      }
+    },
+    {
+      "id": "eju-core-027",
+      "kind": "word",
+      "surface": "たとえば",
+      "reading": "たとえば",
+      "baseForm": "たとえば",
+      "meaningZh": "例如；比如",
+      "exampleJa": "生活費を減らす方法はあります。たとえば、外食を減らすことです。",
+      "exampleZh": "有办法减少生活费，例如减少在外就餐。",
+      "noteZh": "也写作例えば；本批样本匹配的是假名表记。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "d328807ed66c273af9aee9ccd546da8f12e2113e3b7f329867d8c7e6aab469d7",
+        "example": "a50f4f8ee8c3d4675e4165c59ca373dea0763a3349f1855f52e1ad23e856c17f"
+      }
+    },
+    {
+      "id": "eju-core-028",
+      "kind": "word",
+      "surface": "必要",
+      "reading": "ひつよう",
+      "baseForm": "必要",
+      "meaningZh": "必要；需要",
+      "exampleJa": "この手続きをするには、学生証が必要です。",
+      "exampleZh": "办理这个手续需要学生证。",
+      "noteZh": "必要なもの／必要だ／〜する必要がある。样本中一般考试作答说明已排除。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "6b7c11882968953084e2e644b74b0a847a3e7783d5ad4d81670d66774759c7bd",
+        "example": "52f8dbc2ebaf48de70e348b038ff6ce2b5b21f596c276e3e9881a50a1a9cb67e"
+      }
+    },
+    {
+      "id": "eju-core-029",
+      "kind": "word",
+      "surface": "申し込む",
+      "reading": "もうしこむ",
+      "baseForm": "申し込む",
+      "meaningZh": "申请；报名",
+      "exampleJa": "見学を希望する人は、来週の月曜日までに申し込んでください。",
+      "exampleZh": "希望参观的人，请在下周星期一之前报名。",
+      "noteZh": "常用形：申し込みます、申し込んで；只统计原题动词形，名词“申し込み”单独排除。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "ba20f12772732978aa77bd4a965dd0b4e4dd6297fb1893ca6cdac2dcee4ac214",
+        "example": "1ad6539903dab18c5ef1b961ad1c76ca43da42e4f16d7a377c734c3051d336f9"
+      }
+    },
+    {
+      "id": "eju-core-030",
+      "kind": "word",
+      "surface": "述べる",
+      "reading": "のべる",
+      "baseForm": "述べる",
+      "meaningZh": "陈述；说明",
+      "exampleJa": "自分の意見を述べる前に、その理由を整理しましょう。",
+      "exampleZh": "陈述自己的意见之前，先整理理由。",
+      "noteZh": "搭配：意見を述べる；原题含述べなさい、述べています等词形。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "af9f67525cb7290abd732fa7880313cf79ff32f0f3f7ff5349f60a3fec283ceb",
+        "example": "3d8c37bf03ef0749c9f7283c01f330131fd3cfb466d5d7a5cc0d5a1faf5f69fe"
+      }
+    },
+    {
+      "id": "eju-core-031",
+      "kind": "word",
+      "surface": "理解",
+      "reading": "りかい",
+      "baseForm": "理解",
+      "meaningZh": "理解",
+      "exampleJa": "図を見ると、文章だけでは理解しにくかった内容が分かりました。",
+      "exampleZh": "看了图后，明白了仅靠文字难以理解的内容。",
+      "noteZh": "搭配：内容を理解する、理解が深まる。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "e2a43f0cb9cde9f745ced26322c064976e2fb6102dc41530a1043d61aac79aa0",
+        "example": "65bd84c2a28ebb3e0a917a1dd1905706bdeabc2fc937e087886c8fcad17c4e2d"
+      }
+    },
+    {
+      "id": "eju-core-032",
+      "kind": "word",
+      "surface": "したがって",
+      "reading": "したがって",
+      "baseForm": "したがって",
+      "meaningZh": "因此；所以",
+      "exampleJa": "この資料には去年の数字しかありません。したがって、今年の状況は判断できません。",
+      "exampleZh": "这份资料只有去年的数字，因此无法判断今年的情况。",
+      "noteZh": "这里是接续词；不学习动词従う的“遵照”用法。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "4c3bc308338472b04495d1c140ff7e204b80f8d1b90c36d193e91f0d5ebe99f8",
+        "example": "e908699b7d8b954f86e06e681fad6de4265eee7cfd0255167dc3a1668631fb88"
+      }
+    },
+    {
+      "id": "eju-core-033",
+      "kind": "word",
+      "surface": "関係",
+      "reading": "かんけい",
+      "baseForm": "関係",
+      "meaningZh": "关系；关联",
+      "exampleJa": "睡眠時間と成績の関係を調べるために、学生に質問しました。",
+      "exampleZh": "为了调查睡眠时间与成绩的关系，向学生提了问题。",
+      "noteZh": "搭配：AとBの関係；包含无关系等否定表达中的同一词素命中。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "fbb4cc2af96162d23b5b4bc0171a8bcff9362d9d0c41a42efbae8e5d28d1dfb3",
+        "example": "64517d032eb0918e5df1c0ab008d2ca4a255cbd8471ec9a6aec62d3437d3a47a"
+      }
+    },
+    {
+      "id": "eju-core-034",
+      "kind": "word",
+      "surface": "評価",
+      "reading": "ひょうか",
+      "baseForm": "評価",
+      "meaningZh": "评价；评估",
+      "exampleJa": "発表は、内容だけでなく、説明の分かりやすさも評価されます。",
+      "exampleZh": "发表不仅评价内容，也评价说明是否容易理解。",
+      "noteZh": "搭配：高く評価する、評価を受ける；与判断错开学习。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "4b60e1688801bb7ddb039a732c29a3f990a0393d73469aa4d07d1ceb100adcbc",
+        "example": "1ba21b56bfbe3c54435fac89235d264f532d3594d06a9aa122780336d06ad547"
+      }
+    },
+    {
+      "id": "eju-core-035",
+      "kind": "word",
+      "surface": "共通",
+      "reading": "きょうつう",
+      "baseForm": "共通",
+      "meaningZh": "共同；共通",
+      "exampleJa": "二つの地域には、交通の便がよいという共通点があります。",
+      "exampleZh": "两个地区有交通便利这一共同点。",
+      "noteZh": "共通する点／共通点；本例用常见复合词，样本也有共通性。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "bff03dbf949e0317732a0cd099e1add8604bb8abc4d0503031bc16c49ecf949b",
+        "example": "47ead44e0c4b2dfa144e473aada7e3b49ffc4512e20f9526d1ca03e8ddaeda3d"
+      }
+    },
+    {
+      "id": "eju-core-036",
+      "kind": "word",
+      "surface": "原因",
+      "reading": "げんいん",
+      "baseForm": "原因",
+      "meaningZh": "原因",
+      "exampleJa": "利用者が減った原因を調べるため、アンケートを行いました。",
+      "exampleZh": "为了调查使用人数减少的原因，进行了问卷调查。",
+      "noteZh": "搭配：原因を調べる、原因となる；样本命中根本原因。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "651e13fb13961140b2aa91f07173a791509c1ead6ce45394fddef03f265fef18",
+        "example": "cdd59d2f089df2376d64947ea64bc6c7010a02da51da5ab0207d68a97072730e"
+      }
+    },
+    {
+      "id": "eju-core-037",
+      "kind": "word",
+      "surface": "増える",
+      "reading": "ふえる",
+      "baseForm": "増える",
+      "meaningZh": "增加；增多（自动词）",
+      "exampleJa": "春になると、この公園を訪れる人が増えます。",
+      "exampleZh": "到了春天，来这个公园的人会增多。",
+      "noteZh": "人数が増える；增加某物用他动词増やす，不混成同一掌握记录。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "842f163c8c79cfdb8985d6a048e9709b84d0eb288a71fa9ef8b4edf73c89cc7f",
+        "example": "83f9df7eafc1628376dcaaa3e611e52b8d57c1cea5c96e6bc1027c0f82a0d035"
+      }
+    },
+    {
+      "id": "eju-core-038",
+      "kind": "word",
+      "surface": "要因",
+      "reading": "よういん",
+      "baseForm": "要因",
+      "meaningZh": "因素；构成原因的要素",
+      "exampleJa": "売り上げが伸びた要因の一つは、営業時間を延ばしたことです。",
+      "exampleZh": "销售额增长的因素之一是延长了营业时间。",
+      "noteZh": "搭配：要因の一つ；与原因相关，但语境中不一定可以互换。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "cd2dc375d0cdb401a4f78d5b353be6d0b195f48490f7aab0179be16dab88346e",
+        "example": "6ff85b4b5c2c24374dd76a124862f354a8542a23a356ef7ac9ae86c4765fe0ad"
+      }
+    },
+    {
+      "id": "eju-core-039",
+      "kind": "word",
+      "surface": "効果",
+      "reading": "こうか",
+      "baseForm": "効果",
+      "meaningZh": "效果；作用；效应",
+      "exampleJa": "新しい勉強方法の効果を確かめるため、一か月続けてみました。",
+      "exampleZh": "为了确认新学习方法的效果，尝试坚持了一个月。",
+      "noteZh": "含効果的及同义复合词命中；“效应”不必都是有益结果。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "e5b42b29e4622ee6701cfeb9f2460ab0fc258cdb7244d09752231ebd059a4e31",
+        "example": "4842adbcd280883ad82a61d49826a0949e2e87e8899bcbd14b66a398c07f8037"
+      }
+    },
+    {
+      "id": "eju-core-040",
+      "kind": "pattern",
+      "surface": "〜とは限らない",
+      "reading": "〜とはかぎらない",
+      "baseForm": "〜とは限らない",
+      "meaningZh": "不一定……；未必……",
+      "exampleJa": "説明が長いからといって、分かりやすいとは限りません。",
+      "exampleZh": "说明很长，并不意味着容易理解。",
+      "noteZh": "不能解读为“肯定不”；与此前必ずしも〜ない隔单元联系。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "88242bd09e01c9db0e4bd0d246c1d80b0439fdde4c8fd4610f3376ec98c1d5c7",
+        "example": "a2b23a8cd4d915af96169748596f7015cabe63ddd26f5328146954ce98ab5f77"
+      }
+    },
+    {
+      "id": "eju-core-041",
+      "kind": "word",
+      "surface": "社会",
+      "reading": "しゃかい",
+      "baseForm": "社会",
+      "meaningZh": "社会",
+      "exampleJa": "高齢者が安心して暮らせる社会をつくるには、地域の協力が必要です。",
+      "exampleZh": "要建设让老年人安心生活的社会，需要当地居民的合作。",
+      "noteZh": "社会学等主题复合词保留；书目名称中出现的不计入。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "fbd1a72763acf554aaa0bd79211ffb0121c6a6f6afb92a9ddb0b417743d20f85",
+        "example": "9146c23cbcda21f24e2dc5585405d2de1a1ea99fbb7b572010217b4ecf433b3a"
+      }
+    },
+    {
+      "id": "eju-core-042",
+      "kind": "word",
+      "surface": "適当",
+      "reading": "てきとう",
+      "baseForm": "適当",
+      "meaningZh": "合适；适当（本项义）",
+      "exampleJa": "目的に合った適当な方法を選ぶことが重要です。",
+      "exampleZh": "选择符合目的的适当方法很重要。",
+      "noteZh": "还有“随便、敷衍”的用法，本项只学“合适”。",
+      "topic": "论述与逻辑",
+      "sources": [],
+      "categoryIds": [
+        "logic"
+      ],
+      "audio": {
+        "listen": "fdf85c9b7a935b8bf9769e2f396be35be6d9922f95a767f3b6157cb7fde4efe7",
+        "example": "f067f7da2cc87691526e4c6a17339661c87f21c6bcc095c2a7f15a9b69be5d9b"
+      }
+    },
+    {
+      "id": "eju-core-043",
+      "kind": "word",
+      "surface": "環境",
+      "reading": "かんきょう",
+      "baseForm": "環境",
+      "meaningZh": "环境；周围条件",
+      "exampleJa": "静かな環境で勉強すると、集中しやすくなります。",
+      "exampleZh": "在安静的环境中学习，更容易集中注意力。",
+      "noteZh": "环境不只指自然生态，也指生活、语言或学习条件；书目命中排除。",
+      "topic": "调查与研究",
+      "sources": [],
+      "categoryIds": [
+        "research"
+      ],
+      "audio": {
+        "listen": "99a49344adebc0d2d3fa36e939ece322eecb2f1b66030af0f8f66cbb2568419f",
+        "example": "8985e8cf41e3aa6788dd64ec53d3fd8bb52b7ffb525d13a6109328867f4dd30f"
+      }
+    },
+    {
+      "id": "eju-core-044",
+      "kind": "word",
+      "surface": "以前",
+      "reading": "いぜん",
+      "baseForm": "以前",
+      "meaningZh": "以前；从前",
+      "exampleJa": "以前は紙で申し込んでいましたが、今はインターネットで申し込めます。",
+      "exampleZh": "以前用纸质方式申请，现在可以在线申请。",
+      "noteZh": "这里学习独立的“以前”；接日期时是否包含当日需结合文书规定。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "f7c532c2b710935250e2391a11eaf56459cac301e66db41e0b6176f1d090b2e9",
+        "example": "a16bc59e1945769c8b51fe14a078ae96c5310f0b6d0e5b5478907ee6f0365b31"
+      }
+    },
+    {
+      "id": "eju-core-045",
+      "kind": "word",
+      "surface": "内容",
+      "reading": "ないよう",
+      "baseForm": "内容",
+      "meaningZh": "内容",
+      "exampleJa": "お知らせの内容をよく読んで、集合場所を確認してください。",
+      "exampleZh": "请仔细阅读通知内容，确认集合地点。",
+      "noteZh": "搭配：内容を確認する、内容と合っている。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "afc8dc1d85fa07904b4a602d9cbfea9ac87154b4698edbcaff92ba8d32d2f2e4",
+        "example": "ff2d9212f1bb3737503e828fb31361d32f97361e72ef059c0f99b75172fe380b"
+      }
+    },
+    {
+      "id": "eju-core-046",
+      "kind": "word",
+      "surface": "確認",
+      "reading": "かくにん",
+      "baseForm": "確認",
+      "meaningZh": "确认；核实",
+      "exampleJa": "申し込む前に、参加費と持ち物を確認してください。",
+      "exampleZh": "报名之前，请确认参加费用和需携带的物品。",
+      "noteZh": "搭配：日時を確認する、確認が必要だ。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "f1fe166c7708190d16656436233347794e338193173878fc45c9004fae183086",
+        "example": "fee592a17e8baa91b1d55f77a3b0fdc41df8ce04a674d6d6579caa5ff0e6171c"
+      }
+    },
+    {
+      "id": "eju-core-047",
+      "kind": "word",
+      "surface": "以上",
+      "reading": "いじょう",
+      "baseForm": "以上",
+      "meaningZh": "以上；不少于（包含该数值）",
+      "exampleJa": "参加者が二十人以上になった場合は、大きい教室を使います。",
+      "exampleZh": "参加者达到二十人及以上时，使用大教室。",
+      "noteZh": "本项仅数量阈值用法；排除必要以上这类非数值表达。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "289a478d56329c095107e2aaa47b660ccba2f43a78584a10f3ad4d5800933f0c",
+        "example": "13c53b95b46df73e65da8d2239f7ec2826d058538cd5ae5efd08d1fcd77d6905"
+      }
+    },
+    {
+      "id": "eju-core-048",
+      "kind": "word",
+      "surface": "求める",
+      "reading": "もとめる",
+      "baseForm": "求める",
+      "meaningZh": "要求；请求（本项义）",
+      "exampleJa": "大学は、学生に期限までのレポート提出を求めています。",
+      "exampleZh": "大学要求学生在期限内提交报告。",
+      "noteZh": "还可表示寻求、求出等；本项只学习要求义，样本为被动形式。",
+      "topic": "校园事务",
+      "sources": [],
+      "categoryIds": [
+        "campus"
+      ],
+      "audio": {
+        "listen": "9b4579d5a5c0d5a1d6b245a01486f39b6a1733ab785a51bd2320347c13b47435",
+        "example": "8e6e50ddcbcd0412a0d33baa2130095892da95348b9a40cdf16c9d35eec4ab32"
+      }
+    },
+    {
+      "id": "eju-core-049",
+      "kind": "word",
+      "surface": "現在",
+      "reading": "げんざい",
+      "baseForm": "現在",
+      "meaningZh": "现在；目前",
+      "exampleJa": "この施設は現在、工事のため利用できません。",
+      "exampleZh": "这个设施目前因施工而无法使用。",
+      "noteZh": "与以前间隔学习；不能把今后的计划误当成当前事实。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "58d1bcf4d7f1f6f3b17e910883d160a3a5c07926a369c252ca1e5febf701bc94",
+        "example": "ee642f9ec91214e5b109d5f383513fe33924564f806d787b414d6b269d9201ab"
+      }
+    },
+    {
+      "id": "eju-core-050",
+      "kind": "word",
+      "surface": "比べる",
+      "reading": "くらべる",
+      "baseForm": "比べる",
+      "meaningZh": "比较",
+      "exampleJa": "去年と比べると、今年は留学生の割合が高くなっています。",
+      "exampleZh": "与去年相比，今年留学生的比例提高了。",
+      "noteZh": "AとBを比べる／Aに比べてBは〜；原题含比べて、比べれば。",
+      "topic": "图表与变化",
+      "sources": [],
+      "categoryIds": [
+        "data"
+      ],
+      "audio": {
+        "listen": "6fa116f7b2f2b04c942f5e1f72c7d939372d3830ff942b7ac0b8ff2bae7300f9",
+        "example": "93f611ed5e193763527c50bf14d370b775c077bee7f7d2875171759b6383f686"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "7e3ad00532eb5b7ef92c08655acd2d9ddc5d05ced5589882efd5da43c0290a53",
+      "itemId": "eju-core-001",
+      "role": "listen",
+      "url": "/audio/2be5b82196e83951a854cbb5068654b48c2d1c9b89906e28eebde6331863758b.mp3",
+      "sha256": "2be5b82196e83951a854cbb5068654b48c2d1c9b89906e28eebde6331863758b",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6c0f4e287ee9641e480ad353915cd3a42df00fbeb1596db81b403af9e7454a86",
+      "itemId": "eju-core-001",
+      "role": "example",
+      "url": "/audio/545048602db6be71ba4c859664a109ff91b0b2e267bf5147d5991493576ac05f.mp3",
+      "sha256": "545048602db6be71ba4c859664a109ff91b0b2e267bf5147d5991493576ac05f",
+      "status": "human_accepted"
+    },
+    {
+      "id": "9da6bc0a218adcb3cf8346ce1e367efae35a290d25f9641b6bb1b77a287c622b",
+      "itemId": "eju-core-002",
+      "role": "listen",
+      "url": "/audio/3c7f75706f265e33b80e41b654579c724fdb6bfdf4405ffcd784cc65572e0b23.mp3",
+      "sha256": "3c7f75706f265e33b80e41b654579c724fdb6bfdf4405ffcd784cc65572e0b23",
+      "status": "human_accepted"
+    },
+    {
+      "id": "70ddeb2b94bbfb4b05d976d3e18c9abb11bead988658349e2b979cbacaf447d5",
+      "itemId": "eju-core-002",
+      "role": "example",
+      "url": "/audio/00fd631c2825f09217c8c8382e70b05b772ea047a7ec6e755375b48fa919374c.mp3",
+      "sha256": "00fd631c2825f09217c8c8382e70b05b772ea047a7ec6e755375b48fa919374c",
+      "status": "human_accepted"
+    },
+    {
+      "id": "874c54eaf64c0468705ea4dcbb20f12f7620543324480e681b2ab575dddc8586",
+      "itemId": "eju-core-003",
+      "role": "listen",
+      "url": "/audio/9412c550a8708434a4c6a8821c9763780d3f288956d69474f93b48c1c763aacc.mp3",
+      "sha256": "9412c550a8708434a4c6a8821c9763780d3f288956d69474f93b48c1c763aacc",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6a258c5981777696fc84526850a31eec4f16f7b57f6ea9511728d1d8b41a1af6",
+      "itemId": "eju-core-003",
+      "role": "example",
+      "url": "/audio/752c49e412858f129378a102b2a9449770578b86f84aa8ab765e12a1b9f4d559.mp3",
+      "sha256": "752c49e412858f129378a102b2a9449770578b86f84aa8ab765e12a1b9f4d559",
+      "status": "human_accepted"
+    },
+    {
+      "id": "d51153a376c69c0c99215197d1175d801414d375b0e0e0c0f1585a2d70da8b87",
+      "itemId": "eju-core-004",
+      "role": "listen",
+      "url": "/audio/cedda13cac4ac1b5328b485224f502c912fd4665ba21dc9d75487c814de24750.mp3",
+      "sha256": "cedda13cac4ac1b5328b485224f502c912fd4665ba21dc9d75487c814de24750",
+      "status": "human_accepted"
+    },
+    {
+      "id": "4d611d301264946d23c1dcf19f718e3fb94ad1a0783ce8df368a6a2b6c7926c7",
+      "itemId": "eju-core-004",
+      "role": "example",
+      "url": "/audio/fd5aab45f55133d88f1d7dc9f274e8622f96e0f46ec2dc20d11e3c01d0a0e4c6.mp3",
+      "sha256": "fd5aab45f55133d88f1d7dc9f274e8622f96e0f46ec2dc20d11e3c01d0a0e4c6",
+      "status": "human_accepted"
+    },
+    {
+      "id": "a8730f4bf215c796cea517e94a68459d906c020c2ddf7e41b80d3236ed374cb2",
+      "itemId": "eju-core-005",
+      "role": "listen",
+      "url": "/audio/44ed56b4d73b6e968c9d9e9952e8add1eef6ccc2d1ad75057ec10ac8ce8d6375.mp3",
+      "sha256": "44ed56b4d73b6e968c9d9e9952e8add1eef6ccc2d1ad75057ec10ac8ce8d6375",
+      "status": "human_accepted"
+    },
+    {
+      "id": "0516555bd0673e0b8823c9e8bae694856d78079d31744ffdc52e56864e00dec4",
+      "itemId": "eju-core-005",
+      "role": "example",
+      "url": "/audio/14cd1155b39bbe568e698f6864c5dfe580e82c4f02f9f9aae51fcc92c74b7c74.mp3",
+      "sha256": "14cd1155b39bbe568e698f6864c5dfe580e82c4f02f9f9aae51fcc92c74b7c74",
+      "status": "human_accepted"
+    },
+    {
+      "id": "7cee9243b964717fdeca86855089a675e7ac71fdf32bbb4282b749de71f3e92a",
+      "itemId": "eju-core-006",
+      "role": "listen",
+      "url": "/audio/1e40de03d6d733322ded4e704526f36a8d8eb73cc66965efd9ad3134d972c158.mp3",
+      "sha256": "1e40de03d6d733322ded4e704526f36a8d8eb73cc66965efd9ad3134d972c158",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6b3ac68b7c08c609d606dfffbacc04e1d47cb963596f10623da06b10ddc74f2c",
+      "itemId": "eju-core-006",
+      "role": "example",
+      "url": "/audio/d8cb37d0fdc3eb28946d73d5503cf12727e9409bdda94a1a304049f33c660cef.mp3",
+      "sha256": "d8cb37d0fdc3eb28946d73d5503cf12727e9409bdda94a1a304049f33c660cef",
+      "status": "human_accepted"
+    },
+    {
+      "id": "2bee2e883cf4cdbc16e2c29e98de00b729f5e2f2cfbecf16952c362b534cf51b",
+      "itemId": "eju-core-007",
+      "role": "listen",
+      "url": "/audio/a21f2fd6220f22aaae9b7cf4f0f6dc16a92ca3c782fd48fa16af0a223fd43152.mp3",
+      "sha256": "a21f2fd6220f22aaae9b7cf4f0f6dc16a92ca3c782fd48fa16af0a223fd43152",
+      "status": "human_accepted"
+    },
+    {
+      "id": "1988b255775d3b8411498d0cf2ae340bb9cec8f36cfbad2daff825ad271e836c",
+      "itemId": "eju-core-007",
+      "role": "example",
+      "url": "/audio/9cd486e72d0b6ba99024f52b8f19e2741ec2906e0c9526e3ca48e2460f1fb4ca.mp3",
+      "sha256": "9cd486e72d0b6ba99024f52b8f19e2741ec2906e0c9526e3ca48e2460f1fb4ca",
+      "status": "human_accepted"
+    },
+    {
+      "id": "b876fd9ebefc85e161b2b5b76d26922b844242c6beadf8809a3e260a334547bf",
+      "itemId": "eju-core-008",
+      "role": "listen",
+      "url": "/audio/2eee7e347a42f3a22acaa4ae6bee0576751b4c7c919f85f15da9c483e41ea28c.mp3",
+      "sha256": "2eee7e347a42f3a22acaa4ae6bee0576751b4c7c919f85f15da9c483e41ea28c",
+      "status": "human_accepted"
+    },
+    {
+      "id": "30b7fce203dd54bb0b9897904b0ce83ab11625b0394c3c9a42f43a361115f83e",
+      "itemId": "eju-core-008",
+      "role": "example",
+      "url": "/audio/34523fd5c317a064482b9f0697a6643dcd574f5d341c7594ca01eae9c65f9876.mp3",
+      "sha256": "34523fd5c317a064482b9f0697a6643dcd574f5d341c7594ca01eae9c65f9876",
+      "status": "human_accepted"
+    },
+    {
+      "id": "da2b2cda9350dbaf8d529afd8ddc3b4e2409ab70586975b8d15f7cbf53625c86",
+      "itemId": "eju-core-009",
+      "role": "listen",
+      "url": "/audio/47150160dab92343b1eebd33c8eb3f697394f1cd860ef7f1618595b321d9651a.mp3",
+      "sha256": "47150160dab92343b1eebd33c8eb3f697394f1cd860ef7f1618595b321d9651a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "a8980eaf2109bd5938111ee96e4605d2757f847577f70e1cdf5953a49a589f1f",
+      "itemId": "eju-core-009",
+      "role": "example",
+      "url": "/audio/609fcf9aaf235f3e45c1bd1147e514437003579da3c3d570a974b84cafb20b9d.mp3",
+      "sha256": "609fcf9aaf235f3e45c1bd1147e514437003579da3c3d570a974b84cafb20b9d",
+      "status": "human_accepted"
+    },
+    {
+      "id": "9cc12c09e047fcd27469a12944905973c6d6ffd008f899e4063e79d7f626aa7e",
+      "itemId": "eju-core-010",
+      "role": "listen",
+      "url": "/audio/4a7456741bd79698b9116b916f30d786b630dd74b619e10ff34f1de49c23248a.mp3",
+      "sha256": "4a7456741bd79698b9116b916f30d786b630dd74b619e10ff34f1de49c23248a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "82c9114131b7f4f464795757c8d7d98aab36f1fc25b6bb30e15e2945551751a5",
+      "itemId": "eju-core-010",
+      "role": "example",
+      "url": "/audio/14f92b4a81db0285681ae944d5a05189019c8f31e48373c8dd18f8cfaf4694e3.mp3",
+      "sha256": "14f92b4a81db0285681ae944d5a05189019c8f31e48373c8dd18f8cfaf4694e3",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6d17207b00f548225daaef6bc15766303e3a890951a5feeab91e7b09994fae11",
+      "itemId": "eju-core-011",
+      "role": "listen",
+      "url": "/audio/ad69d8377fab3c1390296763776e3affdac9ed99bd7f6692dea77949f3a12dc3.mp3",
+      "sha256": "ad69d8377fab3c1390296763776e3affdac9ed99bd7f6692dea77949f3a12dc3",
+      "status": "human_accepted"
+    },
+    {
+      "id": "381bbdc71ed78d5d63496f711e0ee290a4028b4bd54b8a6550cb3b8acf06188e",
+      "itemId": "eju-core-011",
+      "role": "example",
+      "url": "/audio/f9964038c693771f086e4547cc5f1d9454e69693ee7b005b4b21d2a271125844.mp3",
+      "sha256": "f9964038c693771f086e4547cc5f1d9454e69693ee7b005b4b21d2a271125844",
+      "status": "human_accepted"
+    },
+    {
+      "id": "629efeb581affa4396a287240c74f569d866f62935bc15ab6ad5aa6e7d7a1396",
+      "itemId": "eju-core-012",
+      "role": "listen",
+      "url": "/audio/492caf1d7c1260c1a4fe7f9a7fee8140757beeab8c1e2d178970be30c61ca59e.mp3",
+      "sha256": "492caf1d7c1260c1a4fe7f9a7fee8140757beeab8c1e2d178970be30c61ca59e",
+      "status": "human_accepted"
+    },
+    {
+      "id": "67118ed1f4282bb9bfe1e37cafd56753965f650467c9981d5327812c516326cf",
+      "itemId": "eju-core-012",
+      "role": "example",
+      "url": "/audio/f2b44bef998441c7cfdf53cbfb87e0ee2309988f7a63d0418dadf1fc03be5388.mp3",
+      "sha256": "f2b44bef998441c7cfdf53cbfb87e0ee2309988f7a63d0418dadf1fc03be5388",
+      "status": "human_accepted"
+    },
+    {
+      "id": "81782d8a7a2587c388e7a871133f2166a31f9111864e0f87ae0980a9f75d8a96",
+      "itemId": "eju-core-013",
+      "role": "listen",
+      "url": "/audio/8c5e5378293989d762ef98948a33508e8decca5251bf560ece64ae73572526f7.mp3",
+      "sha256": "8c5e5378293989d762ef98948a33508e8decca5251bf560ece64ae73572526f7",
+      "status": "human_accepted"
+    },
+    {
+      "id": "e89e0b0ec7daf5ce0033c57dd5243c32b05bcb3c6375193bf35a5ef40baad66b",
+      "itemId": "eju-core-013",
+      "role": "example",
+      "url": "/audio/f9d65ddae4af0f76d31c26e37ca1eb6df597049807cad5a71bb96e578668e0d6.mp3",
+      "sha256": "f9d65ddae4af0f76d31c26e37ca1eb6df597049807cad5a71bb96e578668e0d6",
+      "status": "human_accepted"
+    },
+    {
+      "id": "f049c2bf84b1f6bbfcdef5ffab56737e0516ea785ba841e07682e332e300fa6a",
+      "itemId": "eju-core-014",
+      "role": "listen",
+      "url": "/audio/0609ab5d64ffd8755d59b2053aa24d027cd220f440ded530140f02e1496616f6.mp3",
+      "sha256": "0609ab5d64ffd8755d59b2053aa24d027cd220f440ded530140f02e1496616f6",
+      "status": "human_accepted"
+    },
+    {
+      "id": "526ea021da7d2c79a495da267d50aba868cb33740d703932956961cf1663f6ff",
+      "itemId": "eju-core-014",
+      "role": "example",
+      "url": "/audio/9f9faece1f95c2b5d2f890c8c13cc42b7ba53d55a70654dc063601bc7a866df4.mp3",
+      "sha256": "9f9faece1f95c2b5d2f890c8c13cc42b7ba53d55a70654dc063601bc7a866df4",
+      "status": "human_accepted"
+    },
+    {
+      "id": "28039e7a743afe0baeeb238166e08e88e1fc694656c81e4888760968c74b4855",
+      "itemId": "eju-core-015",
+      "role": "listen",
+      "url": "/audio/5361ae901792b85ccc6e9c52aa7f15884cd5a214b8518c4159130fdaa347c028.mp3",
+      "sha256": "5361ae901792b85ccc6e9c52aa7f15884cd5a214b8518c4159130fdaa347c028",
+      "status": "human_accepted"
+    },
+    {
+      "id": "9594dc6487a4c9be4e7f0b20b3082c462219e2c30248dbf3138eff171b84a023",
+      "itemId": "eju-core-015",
+      "role": "example",
+      "url": "/audio/1dc57a524e65def7f603f94cfbdc154bcaf00527183f355513d13d9b5e8aab4f.mp3",
+      "sha256": "1dc57a524e65def7f603f94cfbdc154bcaf00527183f355513d13d9b5e8aab4f",
+      "status": "human_accepted"
+    },
+    {
+      "id": "56beb8c61ba6eb13b8e631efd4560a5d27eac95661c71c507aa8b6396c3b9c42",
+      "itemId": "eju-03-004-a",
+      "role": "listen",
+      "url": "/audio/9eee38db57084d037d3ab87332a43b61d524a2eaf7c3c14ea54909166208d7c0.mp3",
+      "sha256": "9eee38db57084d037d3ab87332a43b61d524a2eaf7c3c14ea54909166208d7c0",
+      "status": "human_accepted"
+    },
+    {
+      "id": "20353fc9dfb2fbf19f50445b282fb5ead34fdcff4a868db3100268d3cc3c4b23",
+      "itemId": "eju-03-004-a",
+      "role": "example",
+      "url": "/audio/9197863a5f5e576b55c57a7401d257c3f29b162883a0f039e78b71b00a84275e.mp3",
+      "sha256": "9197863a5f5e576b55c57a7401d257c3f29b162883a0f039e78b71b00a84275e",
+      "status": "human_accepted"
+    },
+    {
+      "id": "3db752b6e137d4b20a64620ddff678457f15a24bccce0277edc98b177406c67c",
+      "itemId": "eju-core-017",
+      "role": "listen",
+      "url": "/audio/e7e3fe7fba502aecd5670c0c39119ead1cb4a8252e82465cffadf91c73ef316a.mp3",
+      "sha256": "e7e3fe7fba502aecd5670c0c39119ead1cb4a8252e82465cffadf91c73ef316a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "cd4211abdcbe0be77ac3cc7e57ef9e9003fb4bed4b5c8e0cd0e061007f372a13",
+      "itemId": "eju-core-017",
+      "role": "example",
+      "url": "/audio/75754846e3df4ebdf388d4854364d20bae2ffdfebbece707d7dc547fad611b1a.mp3",
+      "sha256": "75754846e3df4ebdf388d4854364d20bae2ffdfebbece707d7dc547fad611b1a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "403a6541ad389c41fe2189936f33edcbff8ef0a83ba968e53393d6ad5df076fd",
+      "itemId": "eju-core-018",
+      "role": "listen",
+      "url": "/audio/29e08f05bdcc8445fb236f16b833c28b1adf72bd9e153c082dddac3469d1c949.mp3",
+      "sha256": "29e08f05bdcc8445fb236f16b833c28b1adf72bd9e153c082dddac3469d1c949",
+      "status": "human_accepted"
+    },
+    {
+      "id": "83de40708ed2ba3b6962082e1406560ef4f69a3d00ead2855c0d31e2734deb9a",
+      "itemId": "eju-core-018",
+      "role": "example",
+      "url": "/audio/422bc44ddfe5fbe1bb4e2740a0e129e1fbb61fd5582307fd96bc7c6524608c7b.mp3",
+      "sha256": "422bc44ddfe5fbe1bb4e2740a0e129e1fbb61fd5582307fd96bc7c6524608c7b",
+      "status": "human_accepted"
+    },
+    {
+      "id": "898b96cf0d5490643e234ded36a94aedd35c7de3dcd1bfa6c77f1357eb3e51d6",
+      "itemId": "eju-core-019",
+      "role": "listen",
+      "url": "/audio/2cf71e30902770aa592f88dabe70c4e58da32fda89dc9d6362a6ee4345e71938.mp3",
+      "sha256": "2cf71e30902770aa592f88dabe70c4e58da32fda89dc9d6362a6ee4345e71938",
+      "status": "human_accepted"
+    },
+    {
+      "id": "9e6a80037ed9ba1afd115c9eccd3678120354242509afa7dd9ad252ce9c1c6b9",
+      "itemId": "eju-core-019",
+      "role": "example",
+      "url": "/audio/1c1829e19ea579b2af1527495065be53935b3d45f2facf7d89d9b2c292808599.mp3",
+      "sha256": "1c1829e19ea579b2af1527495065be53935b3d45f2facf7d89d9b2c292808599",
+      "status": "human_accepted"
+    },
+    {
+      "id": "794c8bc8b98d5a2afa35ec2b9215fb39b62db1175b6e51bd9948ff7f2d94b3f6",
+      "itemId": "eju-core-020",
+      "role": "listen",
+      "url": "/audio/5eb6a290948bc3f741c6fcd1519f0a1f45defa4c6b92670204bb89b6b7da78c0.mp3",
+      "sha256": "5eb6a290948bc3f741c6fcd1519f0a1f45defa4c6b92670204bb89b6b7da78c0",
+      "status": "human_accepted"
+    },
+    {
+      "id": "c08355335bf128c257b8bd1bb4886cee6336e844c5ce16860fc30590988ba56b",
+      "itemId": "eju-core-020",
+      "role": "example",
+      "url": "/audio/c3649aa8eaf17da4fad8331e3e0a1a9d06012e3cbea2fba84ab6e027d7ae0bad.mp3",
+      "sha256": "c3649aa8eaf17da4fad8331e3e0a1a9d06012e3cbea2fba84ab6e027d7ae0bad",
+      "status": "human_accepted"
+    },
+    {
+      "id": "ed507f770727c32d788d0f4210fd0607794ebc6cde6d7b68261178e24e8066da",
+      "itemId": "eju-core-021",
+      "role": "listen",
+      "url": "/audio/ee382bd1614ac090ffa5a341bfb65a45cfe4ae448bfbc89bb1c57be38d1d14e5.mp3",
+      "sha256": "ee382bd1614ac090ffa5a341bfb65a45cfe4ae448bfbc89bb1c57be38d1d14e5",
+      "status": "human_accepted"
+    },
+    {
+      "id": "5a8cc9136ee6723f9ac7455e2fa7791579c2f2d1195c3acc34fb428109f1d419",
+      "itemId": "eju-core-021",
+      "role": "example",
+      "url": "/audio/00133e5280c01571ec9d22b4499db2f02e8d03d7e7cf3f42f6dd87a12ddcc3ff.mp3",
+      "sha256": "00133e5280c01571ec9d22b4499db2f02e8d03d7e7cf3f42f6dd87a12ddcc3ff",
+      "status": "human_accepted"
+    },
+    {
+      "id": "e80454259f398e85276f8334252775f776cd4d5d6f45ce6e3b063d4530a034ba",
+      "itemId": "eju-core-022",
+      "role": "listen",
+      "url": "/audio/81a495a6a35a6f3501ef814c3dfa04a520e3c63946525961dec0146d491f3426.mp3",
+      "sha256": "81a495a6a35a6f3501ef814c3dfa04a520e3c63946525961dec0146d491f3426",
+      "status": "human_accepted"
+    },
+    {
+      "id": "987f714a4ced647b7c68cc0f0ef1b4017d4fe091025a1c5c6064cedca5c6bb50",
+      "itemId": "eju-core-022",
+      "role": "example",
+      "url": "/audio/c5d8d94b774493140f63009346eecd7c02c52b6eaf9b30b56011fa06e902b5ef.mp3",
+      "sha256": "c5d8d94b774493140f63009346eecd7c02c52b6eaf9b30b56011fa06e902b5ef",
+      "status": "human_accepted"
+    },
+    {
+      "id": "b9f1e168be94e4242b95804298574719d2b075851ca95fe70414165bffaabc76",
+      "itemId": "eju-core-023",
+      "role": "listen",
+      "url": "/audio/6c2b89da1e9aa15f45bc73053ea574808bde421b600057e362351c186d47a75b.mp3",
+      "sha256": "6c2b89da1e9aa15f45bc73053ea574808bde421b600057e362351c186d47a75b",
+      "status": "human_accepted"
+    },
+    {
+      "id": "2d1e0720c7dced484d7e235ac82280a74c23ce7c1d8c07f165bb676dc718da81",
+      "itemId": "eju-core-023",
+      "role": "example",
+      "url": "/audio/a7c53c21266e18cd6d1308a76cd73843f765ffc9e58382273d362be980df0933.mp3",
+      "sha256": "a7c53c21266e18cd6d1308a76cd73843f765ffc9e58382273d362be980df0933",
+      "status": "human_accepted"
+    },
+    {
+      "id": "1ed58127e83fcd176afd60a53dae974c81f1ec8c21c93d4ad442b57a5f98c65c",
+      "itemId": "eju-core-024",
+      "role": "listen",
+      "url": "/audio/8cc7c31086767567f93b6fc0118bf2e8a7cbdb1763dfe00eacc0f363b5bbf7eb.mp3",
+      "sha256": "8cc7c31086767567f93b6fc0118bf2e8a7cbdb1763dfe00eacc0f363b5bbf7eb",
+      "status": "human_accepted"
+    },
+    {
+      "id": "cff9ba7a27611513074574ae4c3131d1e2d36ab8ef7204f543289e9308249c45",
+      "itemId": "eju-core-024",
+      "role": "example",
+      "url": "/audio/375110f74b97d58b11e191a928bf6ef742084756417c0b79b69b69ff1e647791.mp3",
+      "sha256": "375110f74b97d58b11e191a928bf6ef742084756417c0b79b69b69ff1e647791",
+      "status": "human_accepted"
+    },
+    {
+      "id": "121c9e9a60496a198b7926846f20d34b2cbe75f2c8bdc21db338e4fc7c403443",
+      "itemId": "eju-core-025",
+      "role": "listen",
+      "url": "/audio/18fd718a9e812fb1e3c73d8bd3627158e87ebee92107c0046302816a8ec768f8.mp3",
+      "sha256": "18fd718a9e812fb1e3c73d8bd3627158e87ebee92107c0046302816a8ec768f8",
+      "status": "human_accepted"
+    },
+    {
+      "id": "78a759de9323789d60183cbd77aaec215024d2692c6dac5acbfcf47e25edefca",
+      "itemId": "eju-core-025",
+      "role": "example",
+      "url": "/audio/52fc570b40eb57174d6ac12634d94ccb89e705cf1f71faa1f2f1d39ed2c2d3df.mp3",
+      "sha256": "52fc570b40eb57174d6ac12634d94ccb89e705cf1f71faa1f2f1d39ed2c2d3df",
+      "status": "human_accepted"
+    },
+    {
+      "id": "e90def9b42a9d54a73e578e82fcb3908f7600f24335232f72243991276cd8224",
+      "itemId": "eju-core-026",
+      "role": "listen",
+      "url": "/audio/f3c6a3d8ceb9c5018541580f87c1a58df5267ebb938e40c26dcd0eeb63054d32.mp3",
+      "sha256": "f3c6a3d8ceb9c5018541580f87c1a58df5267ebb938e40c26dcd0eeb63054d32",
+      "status": "human_accepted"
+    },
+    {
+      "id": "b421c01c58c6ea002ec4838cf6cd129bff1fb05bd6f161eee915bb8298442af5",
+      "itemId": "eju-core-026",
+      "role": "example",
+      "url": "/audio/e003b48dd2c2e5b522d1b79fe175299565481a6a962dac9b854f4b7cf3dc7027.mp3",
+      "sha256": "e003b48dd2c2e5b522d1b79fe175299565481a6a962dac9b854f4b7cf3dc7027",
+      "status": "human_accepted"
+    },
+    {
+      "id": "d328807ed66c273af9aee9ccd546da8f12e2113e3b7f329867d8c7e6aab469d7",
+      "itemId": "eju-core-027",
+      "role": "listen",
+      "url": "/audio/4fb9ef14e62d6b7875250696f8cd6838edd2e0bd583040c601d31534f63f224b.mp3",
+      "sha256": "4fb9ef14e62d6b7875250696f8cd6838edd2e0bd583040c601d31534f63f224b",
+      "status": "human_accepted"
+    },
+    {
+      "id": "a50f4f8ee8c3d4675e4165c59ca373dea0763a3349f1855f52e1ad23e856c17f",
+      "itemId": "eju-core-027",
+      "role": "example",
+      "url": "/audio/f93dbbdaa3e42f8dc96e6a1291c4dd59b0aca95d08cd7b1c78d7447bcef0287e.mp3",
+      "sha256": "f93dbbdaa3e42f8dc96e6a1291c4dd59b0aca95d08cd7b1c78d7447bcef0287e",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6b7c11882968953084e2e644b74b0a847a3e7783d5ad4d81670d66774759c7bd",
+      "itemId": "eju-core-028",
+      "role": "listen",
+      "url": "/audio/31919f68ecab0b75206f0cf1c54d3d19c3d1fca0912a3c20f5cc8e0057ab7f25.mp3",
+      "sha256": "31919f68ecab0b75206f0cf1c54d3d19c3d1fca0912a3c20f5cc8e0057ab7f25",
+      "status": "human_accepted"
+    },
+    {
+      "id": "52f8dbc2ebaf48de70e348b038ff6ce2b5b21f596c276e3e9881a50a1a9cb67e",
+      "itemId": "eju-core-028",
+      "role": "example",
+      "url": "/audio/81ade17c4086d45e849d7f484128a86ab3b8ce45571b12e19378c49b603657e4.mp3",
+      "sha256": "81ade17c4086d45e849d7f484128a86ab3b8ce45571b12e19378c49b603657e4",
+      "status": "human_accepted"
+    },
+    {
+      "id": "ba20f12772732978aa77bd4a965dd0b4e4dd6297fb1893ca6cdac2dcee4ac214",
+      "itemId": "eju-core-029",
+      "role": "listen",
+      "url": "/audio/6a987a514799f590819fdcc0412b376b988e9c20f37f31495e6404b68d9b9c0d.mp3",
+      "sha256": "6a987a514799f590819fdcc0412b376b988e9c20f37f31495e6404b68d9b9c0d",
+      "status": "human_accepted"
+    },
+    {
+      "id": "1ad6539903dab18c5ef1b961ad1c76ca43da42e4f16d7a377c734c3051d336f9",
+      "itemId": "eju-core-029",
+      "role": "example",
+      "url": "/audio/81f4f9ac4db689540a4b990f9f340022ef1aec8108756c3b0b3aa7ad299a8707.mp3",
+      "sha256": "81f4f9ac4db689540a4b990f9f340022ef1aec8108756c3b0b3aa7ad299a8707",
+      "status": "human_accepted"
+    },
+    {
+      "id": "af9f67525cb7290abd732fa7880313cf79ff32f0f3f7ff5349f60a3fec283ceb",
+      "itemId": "eju-core-030",
+      "role": "listen",
+      "url": "/audio/0434af60509940b0c7c88aa516ba0ba9da3507349760051f7689edc2ef072364.mp3",
+      "sha256": "0434af60509940b0c7c88aa516ba0ba9da3507349760051f7689edc2ef072364",
+      "status": "human_accepted"
+    },
+    {
+      "id": "3d8c37bf03ef0749c9f7283c01f330131fd3cfb466d5d7a5cc0d5a1faf5f69fe",
+      "itemId": "eju-core-030",
+      "role": "example",
+      "url": "/audio/b5f061ee716e53f5403f6a130afed4a80303049b0805e57b975f70067669d73d.mp3",
+      "sha256": "b5f061ee716e53f5403f6a130afed4a80303049b0805e57b975f70067669d73d",
+      "status": "human_accepted"
+    },
+    {
+      "id": "e2a43f0cb9cde9f745ced26322c064976e2fb6102dc41530a1043d61aac79aa0",
+      "itemId": "eju-core-031",
+      "role": "listen",
+      "url": "/audio/a28990a3ada194167a0b98628309fa0ce8890f08f414256f6716830b5fb52a99.mp3",
+      "sha256": "a28990a3ada194167a0b98628309fa0ce8890f08f414256f6716830b5fb52a99",
+      "status": "human_accepted"
+    },
+    {
+      "id": "65bd84c2a28ebb3e0a917a1dd1905706bdeabc2fc937e087886c8fcad17c4e2d",
+      "itemId": "eju-core-031",
+      "role": "example",
+      "url": "/audio/f43123dff7438a8f631a1c0cb382734f62a9db3fdfb2a735fda175c723b07aa7.mp3",
+      "sha256": "f43123dff7438a8f631a1c0cb382734f62a9db3fdfb2a735fda175c723b07aa7",
+      "status": "human_accepted"
+    },
+    {
+      "id": "4c3bc308338472b04495d1c140ff7e204b80f8d1b90c36d193e91f0d5ebe99f8",
+      "itemId": "eju-core-032",
+      "role": "listen",
+      "url": "/audio/cac0fc496d07ff2a718fb9d12263de65fc8e845778ea3b40cbcc007cb75f15e1.mp3",
+      "sha256": "cac0fc496d07ff2a718fb9d12263de65fc8e845778ea3b40cbcc007cb75f15e1",
+      "status": "human_accepted"
+    },
+    {
+      "id": "e908699b7d8b954f86e06e681fad6de4265eee7cfd0255167dc3a1668631fb88",
+      "itemId": "eju-core-032",
+      "role": "example",
+      "url": "/audio/6f7711af08b94301cb61055437c2217abd8c7118027080222e8a5eefae437795.mp3",
+      "sha256": "6f7711af08b94301cb61055437c2217abd8c7118027080222e8a5eefae437795",
+      "status": "human_accepted"
+    },
+    {
+      "id": "fbb4cc2af96162d23b5b4bc0171a8bcff9362d9d0c41a42efbae8e5d28d1dfb3",
+      "itemId": "eju-core-033",
+      "role": "listen",
+      "url": "/audio/7f34e21415fb419abcaea29f732ba6fd6ce6e9cf85f91a0b4aaec2127530fe9d.mp3",
+      "sha256": "7f34e21415fb419abcaea29f732ba6fd6ce6e9cf85f91a0b4aaec2127530fe9d",
+      "status": "human_accepted"
+    },
+    {
+      "id": "64517d032eb0918e5df1c0ab008d2ca4a255cbd8471ec9a6aec62d3437d3a47a",
+      "itemId": "eju-core-033",
+      "role": "example",
+      "url": "/audio/1192737951fda65641163d406cd96b00862a0c5661d06e98c44b39064b412e65.mp3",
+      "sha256": "1192737951fda65641163d406cd96b00862a0c5661d06e98c44b39064b412e65",
+      "status": "human_accepted"
+    },
+    {
+      "id": "4b60e1688801bb7ddb039a732c29a3f990a0393d73469aa4d07d1ceb100adcbc",
+      "itemId": "eju-core-034",
+      "role": "listen",
+      "url": "/audio/998fac2b22957dee523df906fd704632f9c257809aaf68a4a98a6660bc78e8a5.mp3",
+      "sha256": "998fac2b22957dee523df906fd704632f9c257809aaf68a4a98a6660bc78e8a5",
+      "status": "human_accepted"
+    },
+    {
+      "id": "1ba21b56bfbe3c54435fac89235d264f532d3594d06a9aa122780336d06ad547",
+      "itemId": "eju-core-034",
+      "role": "example",
+      "url": "/audio/daf1a3116486ece7a1d53b8e9dc720b5da89782a396daeaee208cb191fd3de54.mp3",
+      "sha256": "daf1a3116486ece7a1d53b8e9dc720b5da89782a396daeaee208cb191fd3de54",
+      "status": "human_accepted"
+    },
+    {
+      "id": "bff03dbf949e0317732a0cd099e1add8604bb8abc4d0503031bc16c49ecf949b",
+      "itemId": "eju-core-035",
+      "role": "listen",
+      "url": "/audio/51d2073174e5acf1e5b65f897b86402e50ea44b8aeed8c19391ca9f952b831f6.mp3",
+      "sha256": "51d2073174e5acf1e5b65f897b86402e50ea44b8aeed8c19391ca9f952b831f6",
+      "status": "human_accepted"
+    },
+    {
+      "id": "47ead44e0c4b2dfa144e473aada7e3b49ffc4512e20f9526d1ca03e8ddaeda3d",
+      "itemId": "eju-core-035",
+      "role": "example",
+      "url": "/audio/cb715f1cbd238b74c5013afd017ed31cc7eadbc8a9fa9baee8bd3397cb9c3a80.mp3",
+      "sha256": "cb715f1cbd238b74c5013afd017ed31cc7eadbc8a9fa9baee8bd3397cb9c3a80",
+      "status": "human_accepted"
+    },
+    {
+      "id": "651e13fb13961140b2aa91f07173a791509c1ead6ce45394fddef03f265fef18",
+      "itemId": "eju-core-036",
+      "role": "listen",
+      "url": "/audio/c6ad874975efe10701c722e370d92438e11baf9dd09d997f57ebc2ddb1bb2058.mp3",
+      "sha256": "c6ad874975efe10701c722e370d92438e11baf9dd09d997f57ebc2ddb1bb2058",
+      "status": "human_accepted"
+    },
+    {
+      "id": "cdd59d2f089df2376d64947ea64bc6c7010a02da51da5ab0207d68a97072730e",
+      "itemId": "eju-core-036",
+      "role": "example",
+      "url": "/audio/d0b46c82b4ae43764502d3701c2ff84603adc6410f6213e49f3754055da275b8.mp3",
+      "sha256": "d0b46c82b4ae43764502d3701c2ff84603adc6410f6213e49f3754055da275b8",
+      "status": "human_accepted"
+    },
+    {
+      "id": "842f163c8c79cfdb8985d6a048e9709b84d0eb288a71fa9ef8b4edf73c89cc7f",
+      "itemId": "eju-core-037",
+      "role": "listen",
+      "url": "/audio/ff60042b2b64ba73b8c25e8d214bffe88a63ef3d037ecc2f30f12f7dbd18612b.mp3",
+      "sha256": "ff60042b2b64ba73b8c25e8d214bffe88a63ef3d037ecc2f30f12f7dbd18612b",
+      "status": "human_accepted"
+    },
+    {
+      "id": "83f9df7eafc1628376dcaaa3e611e52b8d57c1cea5c96e6bc1027c0f82a0d035",
+      "itemId": "eju-core-037",
+      "role": "example",
+      "url": "/audio/4308da0cdf9092aa701557bc080189fb7fce800c7cc7fbe4c9f28771e0fe1666.mp3",
+      "sha256": "4308da0cdf9092aa701557bc080189fb7fce800c7cc7fbe4c9f28771e0fe1666",
+      "status": "human_accepted"
+    },
+    {
+      "id": "cd2dc375d0cdb401a4f78d5b353be6d0b195f48490f7aab0179be16dab88346e",
+      "itemId": "eju-core-038",
+      "role": "listen",
+      "url": "/audio/a70a99bd1b0c36a900485cea8a12503c2c3a0ecf629ef238c818834a201121a6.mp3",
+      "sha256": "a70a99bd1b0c36a900485cea8a12503c2c3a0ecf629ef238c818834a201121a6",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6ff85b4b5c2c24374dd76a124862f354a8542a23a356ef7ac9ae86c4765fe0ad",
+      "itemId": "eju-core-038",
+      "role": "example",
+      "url": "/audio/40e6725558a8b452cdc732bec02c849dfb08a31e6f8425a28935790f2cca1acd.mp3",
+      "sha256": "40e6725558a8b452cdc732bec02c849dfb08a31e6f8425a28935790f2cca1acd",
+      "status": "human_accepted"
+    },
+    {
+      "id": "e5b42b29e4622ee6701cfeb9f2460ab0fc258cdb7244d09752231ebd059a4e31",
+      "itemId": "eju-core-039",
+      "role": "listen",
+      "url": "/audio/fda8c46d04a6f585baf4cf2668e9252c4606ae324258d3488ec275f553e931f6.mp3",
+      "sha256": "fda8c46d04a6f585baf4cf2668e9252c4606ae324258d3488ec275f553e931f6",
+      "status": "human_accepted"
+    },
+    {
+      "id": "4842adbcd280883ad82a61d49826a0949e2e87e8899bcbd14b66a398c07f8037",
+      "itemId": "eju-core-039",
+      "role": "example",
+      "url": "/audio/02d2c3a11ed83510817d911f0bae0bec6af2c40f89fe66e50428e0d190d41b8c.mp3",
+      "sha256": "02d2c3a11ed83510817d911f0bae0bec6af2c40f89fe66e50428e0d190d41b8c",
+      "status": "human_accepted"
+    },
+    {
+      "id": "88242bd09e01c9db0e4bd0d246c1d80b0439fdde4c8fd4610f3376ec98c1d5c7",
+      "itemId": "eju-core-040",
+      "role": "listen",
+      "url": "/audio/1b75e9c4c53f5d420ca7f69d2831318154eb6ae860b35e32239ad243fef9c87f.mp3",
+      "sha256": "1b75e9c4c53f5d420ca7f69d2831318154eb6ae860b35e32239ad243fef9c87f",
+      "status": "human_accepted"
+    },
+    {
+      "id": "a2b23a8cd4d915af96169748596f7015cabe63ddd26f5328146954ce98ab5f77",
+      "itemId": "eju-core-040",
+      "role": "example",
+      "url": "/audio/2a602bd027b05429def8f73394d9ffc3607a090756ee091b83b501232a3264b4.mp3",
+      "sha256": "2a602bd027b05429def8f73394d9ffc3607a090756ee091b83b501232a3264b4",
+      "status": "human_accepted"
+    },
+    {
+      "id": "fbd1a72763acf554aaa0bd79211ffb0121c6a6f6afb92a9ddb0b417743d20f85",
+      "itemId": "eju-core-041",
+      "role": "listen",
+      "url": "/audio/84e32e1db84a90a6bcd8362be08b268815fb25c446c51fb3590e2358c880f93c.mp3",
+      "sha256": "84e32e1db84a90a6bcd8362be08b268815fb25c446c51fb3590e2358c880f93c",
+      "status": "human_accepted"
+    },
+    {
+      "id": "9146c23cbcda21f24e2dc5585405d2de1a1ea99fbb7b572010217b4ecf433b3a",
+      "itemId": "eju-core-041",
+      "role": "example",
+      "url": "/audio/248f2331401ec8a0a97d34e0e64b1efb29400e260f4d20d3efd12725515fb167.mp3",
+      "sha256": "248f2331401ec8a0a97d34e0e64b1efb29400e260f4d20d3efd12725515fb167",
+      "status": "human_accepted"
+    },
+    {
+      "id": "fdf85c9b7a935b8bf9769e2f396be35be6d9922f95a767f3b6157cb7fde4efe7",
+      "itemId": "eju-core-042",
+      "role": "listen",
+      "url": "/audio/3d09d56f89dcdc3d299fb2900611e700e36c6b81dd78f87cd6ebba642706780a.mp3",
+      "sha256": "3d09d56f89dcdc3d299fb2900611e700e36c6b81dd78f87cd6ebba642706780a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "f067f7da2cc87691526e4c6a17339661c87f21c6bcc095c2a7f15a9b69be5d9b",
+      "itemId": "eju-core-042",
+      "role": "example",
+      "url": "/audio/19c8bd40b978d8fd524a0cbf9c49f57e5df88a6c7d50aae915b60f9973866fba.mp3",
+      "sha256": "19c8bd40b978d8fd524a0cbf9c49f57e5df88a6c7d50aae915b60f9973866fba",
+      "status": "human_accepted"
+    },
+    {
+      "id": "99a49344adebc0d2d3fa36e939ece322eecb2f1b66030af0f8f66cbb2568419f",
+      "itemId": "eju-core-043",
+      "role": "listen",
+      "url": "/audio/a04d23aa372d5ecc2b52cb8e82b6dd2673afa59c12cfb050a704b86b7765cd46.mp3",
+      "sha256": "a04d23aa372d5ecc2b52cb8e82b6dd2673afa59c12cfb050a704b86b7765cd46",
+      "status": "human_accepted"
+    },
+    {
+      "id": "8985e8cf41e3aa6788dd64ec53d3fd8bb52b7ffb525d13a6109328867f4dd30f",
+      "itemId": "eju-core-043",
+      "role": "example",
+      "url": "/audio/854e4a8b4031aa472aa9fb527e8a57cfd72f7a86924c63a0750a5518c23291e5.mp3",
+      "sha256": "854e4a8b4031aa472aa9fb527e8a57cfd72f7a86924c63a0750a5518c23291e5",
+      "status": "human_accepted"
+    },
+    {
+      "id": "f7c532c2b710935250e2391a11eaf56459cac301e66db41e0b6176f1d090b2e9",
+      "itemId": "eju-core-044",
+      "role": "listen",
+      "url": "/audio/a0f2dd90b6662091f6eaa6e679a0e23af823db01a65f83639b5df7c7f4eee81c.mp3",
+      "sha256": "a0f2dd90b6662091f6eaa6e679a0e23af823db01a65f83639b5df7c7f4eee81c",
+      "status": "human_accepted"
+    },
+    {
+      "id": "a16bc59e1945769c8b51fe14a078ae96c5310f0b6d0e5b5478907ee6f0365b31",
+      "itemId": "eju-core-044",
+      "role": "example",
+      "url": "/audio/23ca7545065329984cb287ded750ac76fbba97a065ab6b3abcd56242ab54b53e.mp3",
+      "sha256": "23ca7545065329984cb287ded750ac76fbba97a065ab6b3abcd56242ab54b53e",
+      "status": "human_accepted"
+    },
+    {
+      "id": "afc8dc1d85fa07904b4a602d9cbfea9ac87154b4698edbcaff92ba8d32d2f2e4",
+      "itemId": "eju-core-045",
+      "role": "listen",
+      "url": "/audio/120136a314057c95778b9a463b1ae3e8a1a08c0084940942bb1ba4765b3f6984.mp3",
+      "sha256": "120136a314057c95778b9a463b1ae3e8a1a08c0084940942bb1ba4765b3f6984",
+      "status": "human_accepted"
+    },
+    {
+      "id": "ff2d9212f1bb3737503e828fb31361d32f97361e72ef059c0f99b75172fe380b",
+      "itemId": "eju-core-045",
+      "role": "example",
+      "url": "/audio/9dbcad54728bd2fb56efafed8d8c6691696abf4dbdda7df71703cee423773430.mp3",
+      "sha256": "9dbcad54728bd2fb56efafed8d8c6691696abf4dbdda7df71703cee423773430",
+      "status": "human_accepted"
+    },
+    {
+      "id": "f1fe166c7708190d16656436233347794e338193173878fc45c9004fae183086",
+      "itemId": "eju-core-046",
+      "role": "listen",
+      "url": "/audio/d520152538906244f9876cdf19933b1fed7584ede130da2556b28688fac4f670.mp3",
+      "sha256": "d520152538906244f9876cdf19933b1fed7584ede130da2556b28688fac4f670",
+      "status": "human_accepted"
+    },
+    {
+      "id": "fee592a17e8baa91b1d55f77a3b0fdc41df8ce04a674d6d6579caa5ff0e6171c",
+      "itemId": "eju-core-046",
+      "role": "example",
+      "url": "/audio/12ffee23b134c66228e3a10c6627ae6222624f734132942376df487e4cec8a8a.mp3",
+      "sha256": "12ffee23b134c66228e3a10c6627ae6222624f734132942376df487e4cec8a8a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "289a478d56329c095107e2aaa47b660ccba2f43a78584a10f3ad4d5800933f0c",
+      "itemId": "eju-core-047",
+      "role": "listen",
+      "url": "/audio/77b03cd1fe67ace0f89a83cb993b40271e620daecc60a5f7c324fe2e282802a5.mp3",
+      "sha256": "77b03cd1fe67ace0f89a83cb993b40271e620daecc60a5f7c324fe2e282802a5",
+      "status": "human_accepted"
+    },
+    {
+      "id": "13c53b95b46df73e65da8d2239f7ec2826d058538cd5ae5efd08d1fcd77d6905",
+      "itemId": "eju-core-047",
+      "role": "example",
+      "url": "/audio/32c38b1a601ce6a0932260d188888f16c4e187e28ad6943d54fcc4572d481a85.mp3",
+      "sha256": "32c38b1a601ce6a0932260d188888f16c4e187e28ad6943d54fcc4572d481a85",
+      "status": "human_accepted"
+    },
+    {
+      "id": "9b4579d5a5c0d5a1d6b245a01486f39b6a1733ab785a51bd2320347c13b47435",
+      "itemId": "eju-core-048",
+      "role": "listen",
+      "url": "/audio/aead6248135e18b99a21746b2e2269b193be8b2107bd8dfa53d2503fa6df1f30.mp3",
+      "sha256": "aead6248135e18b99a21746b2e2269b193be8b2107bd8dfa53d2503fa6df1f30",
+      "status": "human_accepted"
+    },
+    {
+      "id": "8e6e50ddcbcd0412a0d33baa2130095892da95348b9a40cdf16c9d35eec4ab32",
+      "itemId": "eju-core-048",
+      "role": "example",
+      "url": "/audio/c0b38fdf916884acc837f6dcf79ce9eb2e5c5a07488651870dc999292b4a2bac.mp3",
+      "sha256": "c0b38fdf916884acc837f6dcf79ce9eb2e5c5a07488651870dc999292b4a2bac",
+      "status": "human_accepted"
+    },
+    {
+      "id": "58d1bcf4d7f1f6f3b17e910883d160a3a5c07926a369c252ca1e5febf701bc94",
+      "itemId": "eju-core-049",
+      "role": "listen",
+      "url": "/audio/54bc965271c0ca2510a1a49bb75b939375e0754fc0dac7f9171641eda6ba6a4a.mp3",
+      "sha256": "54bc965271c0ca2510a1a49bb75b939375e0754fc0dac7f9171641eda6ba6a4a",
+      "status": "human_accepted"
+    },
+    {
+      "id": "ee642f9ec91214e5b109d5f383513fe33924564f806d787b414d6b269d9201ab",
+      "itemId": "eju-core-049",
+      "role": "example",
+      "url": "/audio/2e2cddacf68b1a4194d1d7e271b79a3bba59b854a15ac9eee75d75ece0ec8551.mp3",
+      "sha256": "2e2cddacf68b1a4194d1d7e271b79a3bba59b854a15ac9eee75d75ece0ec8551",
+      "status": "human_accepted"
+    },
+    {
+      "id": "6fa116f7b2f2b04c942f5e1f72c7d939372d3830ff942b7ac0b8ff2bae7300f9",
+      "itemId": "eju-core-050",
+      "role": "listen",
+      "url": "/audio/9249c4ea99fc67d1ce94940b0ab3e215b21bf7ade8e8d341c4064fa672faa8ec.mp3",
+      "sha256": "9249c4ea99fc67d1ce94940b0ab3e215b21bf7ade8e8d341c4064fa672faa8ec",
+      "status": "human_accepted"
+    },
+    {
+      "id": "93f611ed5e193763527c50bf14d370b775c077bee7f7d2875171759b6383f686",
+      "itemId": "eju-core-050",
+      "role": "example",
+      "url": "/audio/6e2e1f41e1e06afb7c0f922e32a70cbbeb2548a5c39d7adde784614da92839f3.mp3",
+      "sha256": "6e2e1f41e1e06afb7c0f922e32a70cbbeb2548a5c39d7adde784614da92839f3",
+      "status": "human_accepted"
+    }
+  ]
+}

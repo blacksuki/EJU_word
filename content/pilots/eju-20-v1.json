@@ -1,0 +1,1350 @@
+{
+  "schemaVersion": 1,
+  "id": "eju-20-v1",
+  "status": "candidate",
+  "evidenceId": "jasso-public-booklets-2016-2017-v1",
+  "categories": [
+    {
+      "id": "logic",
+      "label": "论述与逻辑"
+    },
+    {
+      "id": "research",
+      "label": "调查与研究"
+    },
+    {
+      "id": "data",
+      "label": "图表与变化"
+    },
+    {
+      "id": "campus",
+      "label": "校园事务"
+    }
+  ],
+  "ordering": "editorial-task-sequence; priority is selection tier, not a blind sort key",
+  "units": [
+    {
+      "id": "u01",
+      "title": "先听清关系与要求",
+      "goal": "抓对象、方法、条件、对比及理由；校园任务与逻辑表达穿插。",
+      "itemIds": [
+        "eju-core-001",
+        "eju-core-002",
+        "eju-core-003",
+        "eju-core-004",
+        "eju-core-005",
+        "eju-core-006",
+        "eju-core-007",
+        "eju-core-008",
+        "eju-core-009",
+        "eju-core-010"
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "再理解数据与判断",
+      "goal": "从结果和调查进入图表、分析、趋势和限定判断。",
+      "itemIds": [
+        "eju-core-011",
+        "eju-core-012",
+        "eju-core-013",
+        "eju-core-014",
+        "eju-core-015",
+        "eju-03-004-a",
+        "eju-core-017",
+        "eju-core-018",
+        "eju-core-019",
+        "eju-core-020"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "eju-core-001",
+      "version": 1,
+      "kind": "word",
+      "surface": "一方",
+      "reading": "いっぽう",
+      "baseForm": "一方",
+      "meaningZh": "另一方面；而（对比）",
+      "sense": "另一方面；而（对比）",
+      "exampleJa": "この地域では人口が減っています。一方、駅の近くではマンションが増えています。",
+      "exampleZh": "这个地区的人口在减少，另一方面，车站附近的公寓楼在增加。",
+      "exampleOrigin": "authored",
+      "listenText": "一方",
+      "noteZh": "对比后项不一定完全相反；这里学习对比用法。",
+      "partOfSpeech": "接续表达",
+      "categoryIds": [
+        "logic"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading",
+        "writing"
+      ],
+      "priority": 1,
+      "priorityReason": "对照两个信息方向，避免把前半句当成全文结论。",
+      "sequence": 1,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 3,
+        "totalSessions": 3,
+        "matchedOccurrences": 6,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 8,
+            "offset": 180
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 10,
+            "offset": 390
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 11,
+            "offset": 113
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 18,
+            "offset": 62
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 468
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 17,
+            "offset": 42
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-002",
+      "version": 1,
+      "kind": "word",
+      "surface": "対象",
+      "reading": "たいしょう",
+      "baseForm": "対象",
+      "meaningZh": "对象；适用范围",
+      "sense": "对象；适用范围",
+      "exampleJa": "この調査の対象は、大学一年生です。",
+      "exampleZh": "这项调查的对象是大学一年级学生。",
+      "exampleOrigin": "authored",
+      "listenText": "対象",
+      "noteZh": "搭配：対象とする、対象となる。不要与対照（对照）混淆。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "research"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "确定资料谈的是谁，辨认选项是否扩大适用范围。",
+      "sequence": 2,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 3,
+        "totalSessions": 3,
+        "matchedOccurrences": 9,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 8,
+            "offset": 435
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 259
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 30,
+            "offset": 276
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 10,
+            "offset": 255
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 23,
+            "offset": 317
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 23,
+            "offset": 346
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 24,
+            "offset": 128
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 24,
+            "offset": 156
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 24,
+            "offset": 256
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-003",
+      "version": 1,
+      "kind": "word",
+      "surface": "方法",
+      "reading": "ほうほう",
+      "baseForm": "方法",
+      "meaningZh": "方法；做法",
+      "sense": "方法；做法",
+      "exampleJa": "申し込みの方法は、案内の最後に書いてあります。",
+      "exampleZh": "报名方法写在通知的最后。",
+      "exampleOrigin": "authored",
+      "listenText": "方法",
+      "noteZh": "搭配：方法を選ぶ、方法を説明する。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "campus"
+      ],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "从通知或说明中提取具体做法。",
+      "sequence": 3,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 11,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 8,
+            "offset": 66
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 8,
+            "offset": 299
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 14
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 42
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 72
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 102
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 133
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 11,
+            "offset": 59
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 10,
+            "offset": 290
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 11,
+            "offset": 107
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 28,
+            "offset": 280
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-004",
+      "version": 1,
+      "kind": "word",
+      "surface": "比較",
+      "reading": "ひかく",
+      "baseForm": "比較",
+      "meaningZh": "比较",
+      "sense": "比较",
+      "exampleJa": "二つのグラフを比較すると、年齢による違いが分かります。",
+      "exampleZh": "比较两张图表，就能看出年龄带来的差异。",
+      "exampleOrigin": "authored",
+      "listenText": "比較",
+      "noteZh": "搭配：AとBを比較する；比較的（相对地）是另一用法，未计入本词频次。",
+      "partOfSpeech": "名词・サ变",
+      "categoryIds": [
+        "data"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "比较图表和选项中的差异，支持聴読解。",
+      "sequence": 4,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 2,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 28,
+            "offset": 44
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 370
+          }
+        ],
+        "excluded": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 6,
+            "offset": 154,
+            "reason": "different_usage"
+          }
+        ]
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-005",
+      "version": 1,
+      "kind": "word",
+      "surface": "資料",
+      "reading": "しりょう",
+      "baseForm": "資料",
+      "meaningZh": "资料",
+      "sense": "资料",
+      "exampleJa": "発表の前に、配られた資料に目を通してください。",
+      "exampleZh": "请在发表前浏览一下发下来的资料。",
+      "exampleOrigin": "authored",
+      "listenText": "資料",
+      "noteZh": "此处是供阅读或研究的资料，不是材料的材质。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "research"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "理解口头指示与书面材料的对应关系。",
+      "sequence": 5,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 3,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 7,
+            "offset": 100
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 14,
+            "offset": 57
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 27,
+            "offset": 59
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-006",
+      "version": 1,
+      "kind": "word",
+      "surface": "条件",
+      "reading": "じょうけん",
+      "baseForm": "条件",
+      "meaningZh": "条件",
+      "sense": "条件",
+      "exampleJa": "この奨学金に申し込むには、二つの条件を満たす必要があります。",
+      "exampleZh": "申请这项奖学金，需要满足两个条件。",
+      "exampleOrigin": "authored",
+      "listenText": "条件",
+      "noteZh": "搭配：条件を満たす、条件が変わる。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "campus"
+      ],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "抓取资格与限制，识别遗漏条件的选项。",
+      "sequence": 6,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 8,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 13,
+            "offset": 11
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 13,
+            "offset": 78
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 13,
+            "offset": 82
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 13,
+            "offset": 135
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 13,
+            "offset": 139
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 13,
+            "offset": 143
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 10,
+            "offset": 177
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 223
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-007",
+      "version": 1,
+      "kind": "word",
+      "surface": "影響",
+      "reading": "えいきょう",
+      "baseForm": "影響",
+      "meaningZh": "影响",
+      "sense": "影响",
+      "exampleJa": "睡眠不足は、授業中の集中力に影響を与えます。",
+      "exampleZh": "睡眠不足会影响上课时的注意力。",
+      "exampleOrigin": "authored",
+      "listenText": "影響",
+      "noteZh": "搭配：AがBに影響を与える；表达影响不等于证明因果。",
+      "partOfSpeech": "名词・サ变",
+      "categoryIds": [
+        "logic"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading",
+        "writing"
+      ],
+      "priority": 1,
+      "priorityReason": "理解因果链，区分影响因素与结果。",
+      "sequence": 7,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 10,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 8,
+            "offset": 420
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 8,
+            "offset": 452
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 268
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 11,
+            "offset": 266
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 14,
+            "offset": 225
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 303
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 480
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 15,
+            "offset": 176
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 23,
+            "offset": 430
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 27,
+            "offset": 580
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-008",
+      "version": 1,
+      "kind": "word",
+      "surface": "締め切り",
+      "reading": "しめきり",
+      "baseForm": "締め切り",
+      "meaningZh": "截止时间；截止期限",
+      "sense": "截止时间；截止期限",
+      "exampleJa": "レポートの締め切りは金曜日の午後五時です。",
+      "exampleZh": "报告的截止时间是星期五下午五点。",
+      "exampleOrigin": "authored",
+      "listenText": "締め切り",
+      "noteZh": "也写作締切／締切り；本次频次仅统计指定表记，不自动合并。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "campus"
+      ],
+      "examUses": [
+        "listening",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "校园通知听读中辨认时间限制。",
+      "sequence": 8,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 2,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 5,
+            "offset": 377
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 10,
+            "offset": 247
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-009",
+      "version": 1,
+      "kind": "word",
+      "surface": "理由",
+      "reading": "りゆう",
+      "baseForm": "理由",
+      "meaningZh": "理由；原因",
+      "sense": "理由；原因",
+      "exampleJa": "筆者がこの案に反対する理由は、費用が高すぎることです。",
+      "exampleZh": "作者反对这一方案的理由是费用过高。",
+      "exampleOrigin": "authored",
+      "listenText": "理由",
+      "noteZh": "理由是支持判断的说明，不要仅凭关键词选择答案。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "logic"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading",
+        "writing"
+      ],
+      "priority": 1,
+      "priorityReason": "定位立场的依据；对应读解理由题和记述说明理由。",
+      "sequence": 9,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 4,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 5,
+            "offset": 201
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 5,
+            "offset": 340
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 5,
+            "offset": 146
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 28,
+            "offset": 23
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-010",
+      "version": 1,
+      "kind": "word",
+      "surface": "つまり",
+      "reading": "つまり",
+      "baseForm": "つまり",
+      "meaningZh": "也就是说；总之",
+      "sense": "也就是说；总之",
+      "exampleJa": "この店では現金が使えません。つまり、カードなどで払う必要があります。",
+      "exampleZh": "这家店不能用现金，也就是说，需要用卡等方式支付。",
+      "exampleOrigin": "authored",
+      "listenText": "つまり",
+      "noteZh": "后句概括或解释前句；不同于表示并列的それに。",
+      "partOfSpeech": "接续词",
+      "categoryIds": [
+        "logic"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading",
+        "writing"
+      ],
+      "priority": 1,
+      "priorityReason": "识别改述和归纳，听清主旨结论。",
+      "sequence": 10,
+      "unitId": "u01",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 6,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 6,
+            "offset": 145
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 10,
+            "offset": 80
+          },
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 10,
+            "offset": 228
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 15,
+            "offset": 247
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 19,
+            "offset": 71
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 19,
+            "offset": 107
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-011",
+      "version": 1,
+      "kind": "word",
+      "surface": "結果",
+      "reading": "けっか",
+      "baseForm": "結果",
+      "meaningZh": "结果",
+      "sense": "结果",
+      "exampleJa": "実験の結果を、表にまとめてください。",
+      "exampleZh": "请把实验结果整理成表格。",
+      "exampleOrigin": "authored",
+      "listenText": "結果",
+      "noteZh": "搭配：結果が出る、結果をまとめる。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "research"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "识别研究所得与前因，后续为调查和分析提供语义基础。",
+      "sequence": 11,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 5,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 9,
+            "offset": 80
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 44,
+            "offset": 71
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 44,
+            "offset": 85
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 44,
+            "offset": 95
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 44,
+            "offset": 105
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-012",
+      "version": 1,
+      "kind": "word",
+      "surface": "調査",
+      "reading": "ちょうさ",
+      "baseForm": "調査",
+      "meaningZh": "调查",
+      "sense": "调查",
+      "exampleJa": "通学にかかる時間について、学生にアンケート調査を行いました。",
+      "exampleZh": "就通学所需时间，对学生进行了问卷调查。",
+      "exampleOrigin": "authored",
+      "listenText": "調査",
+      "noteZh": "本批试题正文统计未确认命中；仅书目标题有字面匹配，已排除。属于用途补充项，非样本高频词。",
+      "partOfSpeech": "名词・サ变",
+      "categoryIds": [
+        "research"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 2,
+      "priorityReason": "作为结果、对象、分析的先备概念，支持调查类说明理解。",
+      "sequence": 12,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 0,
+        "totalSessions": 3,
+        "matchedOccurrences": 0,
+        "notFullExamFrequency": true,
+        "hits": [],
+        "excluded": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 28,
+            "offset": 73,
+            "reason": "bibliography"
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 28,
+            "offset": 93,
+            "reason": "bibliography"
+          }
+        ]
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-013",
+      "version": 1,
+      "kind": "word",
+      "surface": "割合",
+      "reading": "わりあい",
+      "baseForm": "割合",
+      "meaningZh": "比例；比率",
+      "sense": "比例；比率",
+      "exampleJa": "電車で通学する学生の割合は、去年より高くなりました。",
+      "exampleZh": "乘电车通学的学生比例比去年提高了。",
+      "exampleOrigin": "authored",
+      "listenText": "割合",
+      "noteZh": "这里学习名词比例，不学习副词“比较、相当”的用法。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "data"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "区分人数与比例，避免图表选项偷换指标。",
+      "sequence": 13,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 3,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 10,
+            "offset": 106
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 10,
+            "offset": 476
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 38,
+            "offset": 181
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-014",
+      "version": 1,
+      "kind": "word",
+      "surface": "特徴",
+      "reading": "とくちょう",
+      "baseForm": "特徴",
+      "meaningZh": "特征；特点",
+      "sense": "特征；特点",
+      "exampleJa": "この地域の気候の特徴は、夏でも気温が低いことです。",
+      "exampleZh": "这个地区的气候特点是，即使夏天气温也很低。",
+      "exampleOrigin": "authored",
+      "listenText": "特徴",
+      "noteZh": "搭配：特徴がある、特徴を述べる。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "research"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 1,
+      "priorityReason": "提取说明对象的区别性信息。",
+      "sequence": 14,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 2,
+        "totalSessions": 3,
+        "matchedOccurrences": 3,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2016_2-0",
+            "pdfPage": 9,
+            "offset": 143
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 30,
+            "offset": 290
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 30,
+            "offset": 302
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-015",
+      "version": 1,
+      "kind": "word",
+      "surface": "変化",
+      "reading": "へんか",
+      "baseForm": "変化",
+      "meaningZh": "变化",
+      "sense": "变化",
+      "exampleJa": "このグラフは、一日の気温の変化を示しています。",
+      "exampleZh": "这张图表显示了一天中气温的变化。",
+      "exampleOrigin": "authored",
+      "listenText": "変化",
+      "noteZh": "变化不一定是增加，也可能减少或保持后再变化。",
+      "partOfSpeech": "名词・サ变",
+      "categoryIds": [
+        "data"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 2,
+      "priorityReason": "辨认时间变化，先理解整体变化再学习方向和趋势。",
+      "sequence": 15,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 1,
+        "totalSessions": 3,
+        "matchedOccurrences": 2,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 512
+          },
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 38,
+            "offset": 206
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-03-004-a",
+      "version": 1,
+      "kind": "word",
+      "surface": "分析",
+      "reading": "ぶんせき",
+      "baseForm": "分析",
+      "meaningZh": "分析",
+      "sense": "分析",
+      "exampleJa": "調査の結果を分析して、利用者が少ない理由を考えます。",
+      "exampleZh": "分析调查结果，思考使用人数较少的原因。",
+      "exampleOrigin": "authored",
+      "listenText": "分析",
+      "noteZh": "样本命中为复合词“分析力”；保留学生原有分析条目的 ID。",
+      "partOfSpeech": "名词・サ变",
+      "categoryIds": [
+        "research"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 2,
+      "priorityReason": "把结果与理由联系起来，理解研究说明的过程。",
+      "sequence": 16,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 1,
+        "totalSessions": 3,
+        "matchedOccurrences": 1,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 34,
+            "offset": 150
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [
+        {
+          "file": "EJU日语3.pages",
+          "number": 4,
+          "raw": "ぶんせき　分析"
+        }
+      ],
+      "prerequisiteIds": [
+        "eju-core-012",
+        "eju-core-011"
+      ],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-017",
+      "version": 1,
+      "kind": "word",
+      "surface": "重要",
+      "reading": "じゅうよう",
+      "baseForm": "重要",
+      "meaningZh": "重要",
+      "sense": "重要",
+      "exampleJa": "発表では、最も重要な点を先に説明してください。",
+      "exampleZh": "发表时，请先说明最重要的点。",
+      "exampleOrigin": "authored",
+      "listenText": "重要",
+      "noteZh": "重要な点／重要だ；不要误用成重要い。",
+      "partOfSpeech": "ナ形容词",
+      "categoryIds": [
+        "logic"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading",
+        "writing"
+      ],
+      "priority": 2,
+      "priorityReason": "判断重点与辅助信息；支持主旨题。",
+      "sequence": 17,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 1,
+        "totalSessions": 3,
+        "matchedOccurrences": 4,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 15,
+            "offset": 478
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 16,
+            "offset": 186
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 38,
+            "offset": 272
+          },
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 38,
+            "offset": 318
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-018",
+      "version": 1,
+      "kind": "word",
+      "surface": "増加",
+      "reading": "ぞうか",
+      "baseForm": "増加",
+      "meaningZh": "增加",
+      "sense": "增加",
+      "exampleJa": "図書館を夜に利用する学生が増加しています。",
+      "exampleZh": "夜间使用图书馆的学生正在增加。",
+      "exampleOrigin": "authored",
+      "listenText": "増加",
+      "noteZh": "搭配：人数が増加する；增加人数和提高比例不能直接等同。",
+      "partOfSpeech": "名词・サ变",
+      "categoryIds": [
+        "data"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 2,
+      "priorityReason": "识别变化方向；与前面的比例、变化相互关联。",
+      "sequence": 18,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 1,
+        "totalSessions": 3,
+        "matchedOccurrences": 1,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_2-0",
+            "pdfPage": 12,
+            "offset": 183
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [
+        "eju-core-015"
+      ],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-019",
+      "version": 1,
+      "kind": "word",
+      "surface": "傾向",
+      "reading": "けいこう",
+      "baseForm": "傾向",
+      "meaningZh": "倾向；趋势",
+      "sense": "倾向；趋势",
+      "exampleJa": "この地域では、一人で暮らす高齢者が増える傾向があります。",
+      "exampleZh": "这个地区有独居老年人增加的趋势。",
+      "exampleOrigin": "authored",
+      "listenText": "傾向",
+      "noteZh": "搭配：〜傾向がある；观察到倾向不意味着每个个体都如此。",
+      "partOfSpeech": "名词",
+      "categoryIds": [
+        "data"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading"
+      ],
+      "priority": 2,
+      "priorityReason": "区分总体倾向与无例外断言。",
+      "sequence": 19,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 1,
+        "totalSessions": 3,
+        "matchedOccurrences": 1,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 9,
+            "offset": 141
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [
+        "eju-core-018"
+      ],
+      "audioStatus": "not_generated"
+    },
+    {
+      "id": "eju-core-020",
+      "version": 1,
+      "kind": "pattern",
+      "surface": "必ずしも〜ない",
+      "reading": "かならずしも〜ない",
+      "baseForm": "必ずしも〜ない",
+      "meaningZh": "未必；不一定",
+      "sense": "未必；不一定",
+      "exampleJa": "資料が多くても、必ずしも良い発表になるとは限りません。",
+      "exampleZh": "即使资料很多，也未必能做出好的发表。",
+      "exampleOrigin": "authored",
+      "listenText": "必ずしも、そうとは言えません。",
+      "noteZh": "需与否定表达搭配；不是“绝对不”。短音频使用完整句，不读波浪号。",
+      "partOfSpeech": "副词・否定搭配",
+      "categoryIds": [
+        "logic"
+      ],
+      "examUses": [
+        "listening",
+        "listening_reading",
+        "reading",
+        "writing"
+      ],
+      "priority": 2,
+      "priorityReason": "识别部分否定，防止把不一定误判成完全不。",
+      "sequence": 20,
+      "unitId": "u02",
+      "textStatus": "ai_passed",
+      "frequency": {
+        "scope": "three-public-booklets-exact-match",
+        "matchedSessions": 1,
+        "totalSessions": 3,
+        "matchedOccurrences": 1,
+        "notFullExamFrequency": true,
+        "hits": [
+          {
+            "documentId": "2017_1-0",
+            "pdfPage": 18,
+            "offset": 194
+          }
+        ],
+        "excluded": []
+      },
+      "sources": [],
+      "prerequisiteIds": [
+        "eju-core-011"
+      ],
+      "audioStatus": "not_generated"
+    }
+  ]
+}

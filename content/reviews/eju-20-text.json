@@ -1,0 +1,136 @@
+{
+  "id": "eju-20-text-2026-11-06",
+  "reviewedOn": "2026-11-06",
+  "method": "independent_ai_text_review",
+  "reviewerRunId": "/root/pilot_independent_review",
+  "verdict": "pass",
+  "itemsSha256": "ccebda94b809579fdbead0781028c2739cc873505574b1f7905d854924b76844",
+  "scope": [
+    "reading",
+    "meaning",
+    "original_examples",
+    "translations",
+    "prerequisite_order",
+    "source_frequency_claims"
+  ],
+  "audioReview": "not_performed",
+  "items": [
+    {
+      "itemId": "eju-core-001",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-002",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-003",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-004",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-005",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-006",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-007",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-008",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-009",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-010",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-011",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-012",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-013",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-014",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-015",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-03-004-a",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-017",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-018",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-019",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "itemId": "eju-core-020",
+      "verdict": "pass",
+      "issues": []
+    }
+  ],
+  "findings": [
+    {
+      "severity": "P2",
+      "issue": "PDF digests were calculated after the extraction buffer was transferred",
+      "resolution": "Recomputed and independently verified against saved PDF bytes"
+    },
+    {
+      "severity": "P2",
+      "issue": "Candidate audio lacked original synthesis metadata",
+      "resolution": "Persist immutable text, voice, rate, format, provider and generatedAt; regression passed"
+    },
+    {
+      "severity": "P2",
+      "issue": "Unreviewed text must be blocked for real synthesis",
+      "resolution": "CLI checks textStatus and exact items digest before credentials/network"
+    }
+  ]
+}
