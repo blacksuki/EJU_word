@@ -1,0 +1,6 @@
+{
+  "name": "EJU 听词 · 日语学习",
+  "description": "EJU 日语词汇与表达学习：选择单元，听词、理解例句，保存学习进度。",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

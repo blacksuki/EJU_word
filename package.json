@@ -4,12 +4,13 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.0.0"
   },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
+    "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "tsc --noEmit && vite build",
     "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "check:content": "node scripts/content/check-development.mjs",
