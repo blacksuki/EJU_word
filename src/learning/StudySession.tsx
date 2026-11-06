@@ -43,7 +43,7 @@ export function StudySession({bundle,unit,progress,store,legacy,onProgress,onBac
  }
  function pointerDown(event:PointerEvent<HTMLElement>){
   gesture.current=null;
-  if(event.pointerType!=='touch'||!event.isPrimary||lock.current||pending.current||!matchMedia('(max-width: 600px)').matches)return;
+  if(!answer||event.pointerType!=='touch'||!event.isPrimary||lock.current||pending.current||!matchMedia('(max-width: 600px)').matches)return;
   if(event.clientX<24||event.clientX>innerWidth-24||(event.target as Element).closest('button,a,input,select,textarea,[role="button"]'))return;
   gesture.current={id:event.pointerId,x:event.clientX,y:event.clientY,time:event.timeStamp};
  }
@@ -53,7 +53,7 @@ export function StudySession({bundle,unit,progress,store,legacy,onProgress,onBac
   if(Math.abs(dy)>12&&Math.abs(dy)>Math.abs(dx))gesture.current=null;
  }
  function pointerUp(event:PointerEvent<HTMLElement>){
-  const start=gesture.current;gesture.current=null;if(!start||start.id!==event.pointerId)return;
+  const start=gesture.current;gesture.current=null;if(!answer||!start||start.id!==event.pointerId)return;
   const direction=swipeDirection(event.clientX-start.x,event.clientY-start.y,event.timeStamp-start.time);
   if(direction)void navigate(direction);
  }
@@ -68,11 +68,16 @@ export function StudySession({bundle,unit,progress,store,legacy,onProgress,onBac
   </section>:item?<>
    <div className="progress-heading"><span>{replayIndex!==null?'本组重听':'本组练习'} <strong>{index+1}</strong> / {items.length}</span><span>{replayIndex!==null?'原有记录不变':`待标记 ${remaining.length} 项`}</span></div>
    <div className="progress-track"><div style={{width:(replayIndex!==null?replayIndex+1:effective.length)/items.length*100+'%'}}/></div>
-   <div className="swipe-surface" onPointerDown={pointerDown} onPointerMove={pointerMove} onPointerUp={pointerUp} onPointerCancel={()=>{gesture.current=null;}}>
+   <div className={`swipe-surface${answer?' can-swipe':''}`} onPointerDown={pointerDown} onPointerMove={pointerMove} onPointerUp={pointerUp} onPointerCancel={()=>{gesture.current=null;}}>
+    <div className={`word-carousel${answer?' has-answer':''}`}>
     <StudyCard key={`${replayIndex!==null?'replay':'study'}-${item.id}`} replaying={replayIndex!==null} item={item} answer={answer} busy={busy} error={error} onRate={rate} audioUrls={{listen:bundle.assets.find(a=>a.id===item.audio.listen)!.url,example:bundle.assets.find(a=>a.id===item.audio.example)!.url}}/>
+    {answer&&<>
+     <button className="side-arrow previous" aria-label="前一个" title="前一个" disabled={blocked||index===0} onClick={()=>navigate('previous')}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+     <button className="side-arrow next" aria-label={replayIndex===items.length-1?'完成重听':'下一项'} title={replayIndex===items.length-1?'完成重听':'下一项'} disabled={blocked} onClick={()=>navigate('next')}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+    </>}
+    </div>
    </div>
-   <div className="card-navigation" aria-label="词条导航"><button disabled={blocked||index===0} onClick={()=>navigate('previous')}>前一个</button><button className="primary next" disabled={blocked} onClick={()=>navigate('next')}>{replayIndex===items.length-1?'完成重听':'下一项'} <span aria-hidden="true">→</span></button></div>
-   <p className="swipe-hint">左滑前一个 · 右滑下一个</p>
+   {!answer&&<button className="skip-word text-button" disabled={blocked} onClick={()=>navigate('next')}>暂时跳过</button>}
   </>:null}
   <nav className="session-bottom" aria-label="学习操作">
    {replayIndex!==null&&<button className="text-button" onClick={()=>setReplayIndex(null)}>返回本组记录</button>}
