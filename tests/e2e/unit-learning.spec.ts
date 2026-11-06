@@ -18,7 +18,7 @@ test('50-item home loads no audio until a tap; a unit saves, corrects, returns a
  await expect.poll(()=>page.locator('audio').evaluate((a:HTMLAudioElement)=>a.currentSrc)).toContain(url);await expect.poll(()=>page.locator('audio').evaluate((a:HTMLAudioElement)=>a.currentTime)).toBeGreaterThan(0);
  await page.screenshot({path:`artifacts/verification/release-ui/answer-${test.info().project.name}.png`,fullPage:true});
  const before=await snapshot(page,key('u01'));expect(before.feedback).toHaveLength(2);
- await page.getByRole('button',{name:'返回单元列表'}).click();expect(await page.locator('audio').count()).toBe(0);expect(await snapshot(page,key('u01'))).toEqual(before);
+ await page.getByRole('button',{name:'回到学习单元'}).click();expect(await page.locator('audio').count()).toBe(0);expect(await snapshot(page,key('u01'))).toEqual(before);
  await page.getByRole('button',{name:'学习第1单元'}).click();await page.reload();await expect(page.getByRole('heading',{name:'一方',exact:true})).toBeVisible();expect(await snapshot(page,key('u01'))).toEqual(before);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
@@ -36,11 +36,11 @@ test('unit completion and replay preserve records; next unit starts independentl
 test('old five-item feedback remains byte-equivalent and accessible after learning a new unit',async({page})=>{
  await page.goto('/?pack=legacy');await page.getByRole('button',{name:'开始学习'}).click();await rate(page);await expect(page.getByRole('heading',{name:'分析',exact:true})).toBeVisible();const old=await snapshot(page,'current');
  await page.goto('/');await expect(page.getByText('已记录 1 / 5 项，原记录单独保留。')).toBeVisible();await page.getByRole('button',{name:'学习第2单元'}).click();await rate(page);expect(await snapshot(page,'current')).toEqual(old);expect((await snapshot(page,key('u02'))).feedback).toHaveLength(1);
- await page.getByRole('button',{name:'返回单元列表'}).click();await page.getByRole('link',{name:/原5项记录/}).click();await page.getByRole('button',{name:'继续学习'}).click();await expect(page.getByRole('heading',{name:'分析',exact:true})).toBeVisible();expect(await snapshot(page,'current')).toEqual(old);
+ await page.getByRole('button',{name:'回到学习单元'}).click();await page.getByRole('link',{name:/原5项记录/}).click();await page.getByRole('button',{name:'继续学习'}).click();await expect(page.getByRole('heading',{name:'分析',exact:true})).toBeVisible();expect(await snapshot(page,'current')).toEqual(old);
 });
 
 test('later units save in their own slots without marking earlier units',async({page})=>{
- await page.goto('/');for(const n of [3,4,5]){await page.getByRole('button',{name:`学习第${n}单元`}).click();await rate(page);await expect(page.getByRole('heading',{name:bundle.items[(n-1)*10].surface,exact:true})).toBeVisible();expect((await snapshot(page,key(`u0${n}`))).feedback).toHaveLength(1);await page.getByRole('button',{name:'返回单元列表'}).click();}
+ await page.goto('/');for(const n of [3,4,5]){await page.getByRole('button',{name:`学习第${n}单元`}).click();await rate(page);await expect(page.getByRole('heading',{name:bundle.items[(n-1)*10].surface,exact:true})).toBeVisible();expect((await snapshot(page,key(`u0${n}`))).feedback).toHaveLength(1);await page.getByRole('button',{name:'回到学习单元'}).click();}
  expect(await snapshot(page,key('u01'))).toBeUndefined();expect(await snapshot(page,'current')).toBeUndefined();
 });
 
@@ -75,8 +75,8 @@ test('unit picker cannot discard an unconfirmed rating and unlocks after retry',
  await page.goto('/?unit=u01');const picker=page.getByRole('combobox',{name:'选择学习单元'});await expect(picker).toBeEnabled();await hear(page);
  await page.evaluate(()=>{const original=IDBDatabase.prototype.transaction;(window as any).restore=()=>IDBDatabase.prototype.transaction=original;IDBDatabase.prototype.transaction=function(...args:any[]){if(args[1]==='readwrite')throw new DOMException('full','QuotaExceededError');return original.apply(this,args as any);};});
  await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('alert')).toContainText('未能确认保存');
- await expect(picker).toBeDisabled();await expect(page.getByRole('button',{name:'返回单元列表'})).toBeDisabled();expect(await snapshot(page,key('u01'))).toBeUndefined();
- await page.locator('.brand').click();await expect(page.getByRole('alert')).toContainText('未能确认保存');await expect(page).toHaveURL(/unit=u01/);
+ await expect(picker).toBeDisabled();await expect(page.getByRole('button',{name:'回到学习单元'})).toBeDisabled();expect(await snapshot(page,key('u01'))).toBeUndefined();
+ await page.setViewportSize({width:1280,height:800});await page.locator('.brand').click();await expect(page.getByRole('alert')).toContainText('未能确认保存');await expect(page).toHaveURL(/unit=u01/);
  await page.evaluate(()=>(window as any).restore());await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'})).toBeVisible();
  await expect(picker).toBeEnabled();await picker.selectOption('u05');await expect(page).toHaveURL(/unit=u05/);expect((await snapshot(page,key('u01'))).feedback).toHaveLength(1);expect(await snapshot(page,key('u05'))).toBeUndefined();
 });
@@ -92,7 +92,7 @@ test('brand cannot leave while a rating is waiting for commit acknowledgement',a
   }});
  });
  await page.getByRole('button',{name:'听懂了',exact:true}).click();const picker=page.getByRole('combobox',{name:'选择学习单元'});await expect(picker).toBeDisabled();
- await page.locator('.brand').click();await expect(page).toHaveURL(/unit=u01/);await expect(picker).toBeDisabled();await expect(page.getByRole('button',{name:'保存中…',exact:true})).toBeVisible();
+ await page.setViewportSize({width:1280,height:800});await page.locator('.brand').click();await expect(page).toHaveURL(/unit=u01/);await expect(picker).toBeDisabled();await expect(page.getByRole('button',{name:'保存中…',exact:true})).toBeVisible();
  await expect.poll(()=>page.evaluate(()=>typeof (window as any).releaseCommit)).toBe('function');
  await page.evaluate(()=>{(window as any).restore();(window as any).releaseCommit();});
  await expect(page.getByRole('status',{name:'当前标记'})).toBeVisible();await expect(picker).toBeEnabled();expect((await snapshot(page,key('u01'))).feedback).toHaveLength(1);

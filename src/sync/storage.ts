@@ -21,6 +21,19 @@ export function createLocalProgressStore(dbName:string,progressKey='current'){
  }
  return {
   read:()=>transact('readonly'),
+  async navigate(contentVersion:string,currentItemId:string,nextItemId:string|null,itemIds:string[]):Promise<LocalProgress>{
+   const from=itemIds.indexOf(currentItemId),to=nextItemId===null?-1:itemIds.indexOf(nextItemId);
+   if(!contentVersion||!itemIds.length||new Set(itemIds).size!==itemIds.length||from<0||(nextItemId===null?from!==itemIds.length-1:to<0||Math.abs(to-from)!==1))throw new Error('INVALID_NAVIGATION');
+   const result=await transact('readwrite',current=>{
+    if(!current&&from!==0)throw new Error('CURSOR_CONFLICT');
+    const p=current||{schemaVersion:1 as const,contentVersion,cursorItemId:currentItemId,feedback:[]};
+    if(p.contentVersion!==contentVersion)throw new Error('CONTENT_VERSION_CONFLICT');
+    if(p.cursorItemId!==currentItemId)throw new Error('CURSOR_CONFLICT');
+    if(p.feedback.some(e=>!itemIds.includes(e.itemId)))throw new Error('INVALID_NAVIGATION');
+    const marked=new Set(effectiveFeedback(p.feedback).map(e=>e.itemId));
+    return {...p,cursorItemId:nextItemId===null?(itemIds.find(id=>!marked.has(id))||null):nextItemId};
+   });return result!;
+  },
   async saveFeedback(event:LocalFeedback,cursorItemId:string|null):Promise<LocalProgress>{
    if(!validFeedback(event)||cursorItemId!==event.itemId)throw new Error('INVALID_FEEDBACK');
    const result=await transact('readwrite',current=>{

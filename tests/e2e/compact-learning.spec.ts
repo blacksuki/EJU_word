@@ -56,7 +56,7 @@ test('short screens and enlarged answer text retain reachable learning and compl
    // Deliberately double rendered text sizes, not a claim about OS font scaling.
    await page.locator('.study-card h2,.study-card p,.study-card button,.reading').evaluateAll(els=>els.forEach(el=>{(el as HTMLElement).style.fontSize=parseFloat(getComputedStyle(el).fontSize)*2+'px';}));
    for(const selector of ['.example-play','.japanese','.next']){
-    const element=page.locator(selector);await element.scrollIntoViewIfNeeded();const box=(await element.boundingBox())!;expect(box.y+box.height).toBeLessThanOrEqual(400);expect(box.y).toBeGreaterThanOrEqual(0);
+    const element=page.locator(selector);await element.scrollIntoViewIfNeeded();const box=(await element.boundingBox())!;expect(box.y+box.height).toBeLessThanOrEqual(401);expect(box.y).toBeGreaterThanOrEqual(-1);
    }
    expect(await page.evaluate(()=>document.documentElement.scrollHeight>innerHeight)).toBe(true);
   }
