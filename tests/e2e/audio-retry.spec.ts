@@ -35,7 +35,7 @@ test('P2 media error keeps ratings disabled through pending and failed retries u
  await expect(page.getByRole('alert')).toContainText('音频暂不可用');await expectRatingsDisabled(page);
  await page.unroute('**/*-listen.mp3');await page.getByRole('button',{name:/播放词语|再听一次/,exact:true}).click();
  await expect(page.getByRole('button',{name:'听懂了',exact:true})).toBeEnabled();await expect(page.getByRole('alert')).toHaveCount(0);
- await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();
+ await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();
  expect((await savedProgress(page)).feedback).toHaveLength(1);
 });
 
@@ -48,7 +48,7 @@ test('P2 a fresh listen attempt cannot reuse a previous success while its reques
 });
 
 test('P2 example failure and pending retry preserve the saved rating and correction controls',async({page})=>{
- await startAndHear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();
+ await startAndHear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();
  const before=await savedProgress(page);
  await page.route('**/*-example.mp3',route=>route.fulfill({status:404,body:'Not found'}));
  await page.getByRole('button',{name:'听例句',exact:true}).click();await expect(page.getByRole('alert')).toContainText('音频暂不可用');
@@ -56,10 +56,10 @@ test('P2 example failure and pending retry preserve the saved rating and correct
  const {request:requested}=await holdNextRequest(page,'**/*-example.mp3');
  await page.getByRole('button',{name:'听例句',exact:true}).click();const held=await requested;
  try{
-  await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();await expect(page.getByRole('button',{name:'改为没听懂'})).toBeEnabled();
+  await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();await expect(page.getByRole('button',{name:'改为没听懂'})).toBeEnabled();
   expect(await savedProgress(page)).toEqual(before);
  }finally{await held.continue();}
  await expect.poll(()=>page.locator('audio').evaluate((audio:HTMLAudioElement)=>audio.currentTime)).toBeGreaterThan(0);
- await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByText('✓ 已保存到本机 · 没听懂')).toBeVisible();
+ await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^没听懂$/})).toBeVisible();
  const after=await savedProgress(page);expect(after.feedback).toHaveLength(2);expect(after.feedback[1].replacesEventId).toBe(before.feedback[0].eventId);
 });

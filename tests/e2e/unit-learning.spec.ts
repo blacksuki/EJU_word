@@ -4,14 +4,14 @@ const bundle=JSON.parse(fs.readFileSync('public/content/eju-50-v1.json','utf8'))
 const key=(unit:string)=>`content:eju-50-v1:${unit}`;
 async function snapshot(page:Page,key:string){return page.evaluate(key=>new Promise<any>((resolve,reject)=>{const q=indexedDB.open('eju-wordtest-phase1',1);q.onerror=()=>reject(q.error);q.onsuccess=()=>{const db=q.result;const tx=db.transaction('progress');const get=tx.objectStore('progress').get(key);get.onsuccess=()=>resolve(get.result);tx.oncomplete=()=>db.close();};}),key);}
 async function hear(page:Page){await page.getByRole('button',{name:'播放词语',exact:true}).click();await expect(page.getByRole('button',{name:'听懂了',exact:true})).toBeEnabled();}
-async function rate(page:Page,rating='听懂了'){await hear(page);await page.getByRole('button',{name:rating,exact:true}).click();await expect(page.getByText(/✓ 已保存到本机/)).toBeVisible();}
+async function rate(page:Page,rating='听懂了'){await hear(page);await page.getByRole('button',{name:rating,exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'})).toBeVisible();}
 
 test('50-item home loads no audio until a tap; a unit saves, corrects, returns and resumes on refresh',async({page})=>{
  const requested:string[]=[];page.on('request',r=>{if(r.url().endsWith('.mp3'))requested.push(r.url());});
  await page.goto('/');await expect(page.getByRole('heading',{name:'选择学习单元'})).toBeVisible();await expect(page.getByRole('link',{name:/原5项记录/})).toHaveCount(0);await expect(page.getByRole('button',{name:/学习第[1-5]单元/})).toHaveCount(5);expect(requested).toHaveLength(0);
  await page.screenshot({path:`artifacts/verification/release-ui/home-${test.info().project.name}.png`,fullPage:true});
  await page.getByRole('button',{name:'开始学习'}).click();expect(requested).toHaveLength(0);await expect(page.getByRole('heading',{name:'一方',exact:true})).toHaveCount(0);await rate(page);
- await page.getByRole('heading',{name:'一方',exact:true}).waitFor();await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByText('✓ 已保存到本机 · 没听懂')).toBeVisible();
+ await page.getByRole('heading',{name:'一方',exact:true}).waitFor();await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^没听懂$/})).toBeVisible();
  const example=page.getByRole('button',{name:'听例句',exact:true});const bounds=await example.boundingBox();expect(bounds!.height).toBeGreaterThanOrEqual(56);expect(bounds!.width).toBeGreaterThanOrEqual(240);
  if(test.info().project.name==='webkit')await example.tap();else await example.click();
  const url=bundle.assets.find((a:any)=>a.id===bundle.items[0].audio.example).url;
@@ -77,7 +77,7 @@ test('unit picker cannot discard an unconfirmed rating and unlocks after retry',
  await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('alert')).toContainText('未能确认保存');
  await expect(picker).toBeDisabled();await expect(page.getByRole('button',{name:'返回单元列表'})).toBeDisabled();expect(await snapshot(page,key('u01'))).toBeUndefined();
  await page.locator('.brand').click();await expect(page.getByRole('alert')).toContainText('未能确认保存');await expect(page).toHaveURL(/unit=u01/);
- await page.evaluate(()=>(window as any).restore());await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText(/✓ 已保存到本机/)).toBeVisible();
+ await page.evaluate(()=>(window as any).restore());await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'})).toBeVisible();
  await expect(picker).toBeEnabled();await picker.selectOption('u05');await expect(page).toHaveURL(/unit=u05/);expect((await snapshot(page,key('u01'))).feedback).toHaveLength(1);expect(await snapshot(page,key('u05'))).toBeUndefined();
 });
 
@@ -95,5 +95,5 @@ test('brand cannot leave while a rating is waiting for commit acknowledgement',a
  await page.locator('.brand').click();await expect(page).toHaveURL(/unit=u01/);await expect(picker).toBeDisabled();await expect(page.getByRole('button',{name:'保存中…',exact:true})).toBeVisible();
  await expect.poll(()=>page.evaluate(()=>typeof (window as any).releaseCommit)).toBe('function');
  await page.evaluate(()=>{(window as any).restore();(window as any).releaseCommit();});
- await expect(page.getByText(/✓ 已保存到本机/)).toBeVisible();await expect(picker).toBeEnabled();expect((await snapshot(page,key('u01'))).feedback).toHaveLength(1);
+ await expect(page.getByRole('status',{name:'当前标记'})).toBeVisible();await expect(picker).toBeEnabled();expect((await snapshot(page,key('u01'))).feedback).toHaveLength(1);
 });

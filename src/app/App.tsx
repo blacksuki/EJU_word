@@ -21,7 +21,7 @@ export function App(){
  const finished=(id:string)=>!!progresses[id]&&progresses[id]!.cursorItemId===null;
  const total=units.reduce((n,u)=>n+count(u.id),0);const recommended=units.find(u=>!finished(u.id))||units[0];const unit=units.find(u=>u.id===activeId);
  const brandContent=<><span className="brand-mark">言</span><span>EJU <span className="brand-light">听词</span></span></>;
- return <div className="shell">
+ return <div className={`shell${unit?' is-studying':''}`}>
  <header>{unit?<div className="brand">{brandContent}</div>:<a className="brand" href="/" aria-label="EJU 听词首页">{brandContent}</a>}<span className="header-label">日本語学習 · 日语词汇与表达</span></header>
  <main>
  {fatal?<section className="study-card"><h1>暂时无法开始</h1><p role="alert" className="error">{fatal}</p><button className="primary" onClick={()=>location.reload()}>重新读取</button></section>:!bundle?<p role="status">正在读取学习内容和本机记录…</p>:unit?<StudySession key={`${bundle.version}:${unit.id}`} bundle={bundle} unit={unit} legacy={legacy} progress={progresses[unit.id]} store={createLocalProgressStore(DB,keyFor(bundle,unit,legacy))} onProgress={p=>setProgresses(previous=>({...previous,[unit.id]:p}))} onBack={()=>selectUnit(null)} onSelectUnit={selectUnit} onNextUnit={!legacy&&units.indexOf(unit)<units.length-1?()=>selectUnit(units[units.indexOf(unit)+1].id):undefined}/>:<>

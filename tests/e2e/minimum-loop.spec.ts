@@ -6,11 +6,11 @@ async function snapshot(page:Page){return page.evaluate(()=>new Promise<any>((re
 test('actual audio -> mark -> meaning/example -> save and reload',async({page})=>{
  await start(page);await expect(page.getByRole('button',{name:'听懂了',exact:true})).toBeDisabled();await expect(page.getByText('分析',{exact:true})).toHaveCount(0);
  await hear(page);await expect.poll(()=>page.locator('audio').evaluate((a:HTMLAudioElement)=>a.currentTime)).toBeGreaterThan(0);
- await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('heading',{name:'分析',exact:true})).toBeVisible();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();
+ await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('heading',{name:'分析',exact:true})).toBeVisible();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();
  await page.getByRole('button',{name:'听例句'}).click();await expect.poll(()=>page.locator('audio').evaluate((a:HTMLAudioElement)=>a.currentSrc)).toContain('example.mp3');await expect.poll(()=>page.locator('audio').evaluate((a:HTMLAudioElement)=>a.currentTime)).toBeGreaterThan(0);
  await page.screenshot({path:'artifacts/verification/answer-'+test.info().project.name+'.png',fullPage:true});
  await page.reload();await page.getByRole('button',{name:'继续学习'}).click();await expect(page.getByRole('heading',{name:'分析',exact:true})).toBeVisible();expect((await snapshot(page)).feedback).toHaveLength(1);
- await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByText('✓ 已保存到本机 · 没听懂')).toBeVisible();expect((await snapshot(page)).feedback).toHaveLength(2);
+ await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^没听懂$/})).toBeVisible();expect((await snapshot(page)).feedback).toHaveLength(2);
  await page.getByRole('button',{name:'下一项'}).click();await expect(page.getByText('这个声音，你听懂了吗？')).toBeVisible();expect((await snapshot(page)).cursorItemId).toBe('eju-02-004-a');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
@@ -22,12 +22,12 @@ test('failed media is retryable and never becomes a learning answer',async({page
 test('storage failure keeps answer hidden and allows retry without false saved status',async({page})=>{
  await start(page);await hear(page);
  await page.evaluate(()=>{const original=IDBDatabase.prototype.transaction;(window as any).restoreTransaction=()=>IDBDatabase.prototype.transaction=original;IDBDatabase.prototype.transaction=function(...args:any[]){if(args[1]==='readwrite')throw new DOMException('Disk full','QuotaExceededError');return original.apply(this,args as any);};});
- await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('alert')).toContainText('未能确认保存');await expect(page.getByRole('heading',{name:'分析',exact:true})).toHaveCount(0);await expect(page.getByText(/✓ 已保存到本机/)).toHaveCount(0);
- await page.evaluate(()=>(window as any).restoreTransaction());await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();expect((await snapshot(page)).feedback).toHaveLength(1);
+ await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('alert')).toContainText('未能确认保存');await expect(page.getByRole('heading',{name:'分析',exact:true})).toHaveCount(0);await expect(page.getByRole('status',{name:'当前标记'})).toHaveCount(0);
+ await page.evaluate(()=>(window as any).restoreTransaction());await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();expect((await snapshot(page)).feedback).toHaveLength(1);
 });
 
 test('a complete five-item group remains complete after reload',async({page})=>{
- await start(page);for(let i=0;i<5;i++){await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();await page.getByRole('button',{name:'下一项'}).click();}
+ await start(page);for(let i=0;i<5;i++){await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();await page.getByRole('button',{name:'下一项'}).click();}
  await expect(page.getByRole('heading',{name:'本组已完成'})).toBeVisible();await page.reload();await page.getByRole('button',{name:'查看本组记录'}).click();await expect(page.getByRole('heading',{name:'本组已完成'})).toBeVisible();expect((await snapshot(page)).cursorItemId).toBeNull();expect((await snapshot(page)).feedback).toHaveLength(5);
 });
 
@@ -35,7 +35,7 @@ test('closing and relaunching persistent Chromium preserves two answers and next
  test.skip(info.project.name!=='chromium','Persistent Chromium verification; WebKit reload verified separately');
  const dir=await fs.mkdtemp(path.join(os.tmpdir(),'eju-phase1-'));
  let context=await chromium.launchPersistentContext(dir,{headless:true,viewport:{width:390,height:844},baseURL:`http://127.0.0.1:${process.env.EJU_TEST_PORT||5174}`});
- try{let page=await context.newPage();await start(page);for(let i=0;i<2;i++){await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();await page.getByRole('button',{name:'下一项'}).click();}await context.close();context=await chromium.launchPersistentContext(dir,{headless:true,viewport:{width:390,height:844},baseURL:`http://127.0.0.1:${process.env.EJU_TEST_PORT||5174}`});page=await context.newPage();await start(page);const p=await snapshot(page);expect(p.feedback).toHaveLength(2);expect(p.cursorItemId).toBe('eju-01-031-a');await page.screenshot({path:'artifacts/verification/reopened-chromium.png',fullPage:true});}finally{await context.close();}
+ try{let page=await context.newPage();await start(page);for(let i=0;i<2;i++){await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();await page.getByRole('button',{name:'下一项'}).click();}await context.close();context=await chromium.launchPersistentContext(dir,{headless:true,viewport:{width:390,height:844},baseURL:`http://127.0.0.1:${process.env.EJU_TEST_PORT||5174}`});page=await context.newPage();await start(page);const p=await snapshot(page);expect(p.feedback).toHaveLength(2);expect(p.cursorItemId).toBe('eju-01-031-a');await page.screenshot({path:'artifacts/verification/reopened-chromium.png',fullPage:true});}finally{await context.close();}
 });
 
 async function failWrites(page:Page){await page.evaluate(()=>{const original=IDBDatabase.prototype.transaction;(window as any).restoreTransaction=()=>IDBDatabase.prototype.transaction=original;IDBDatabase.prototype.transaction=function(...args:any[]){if(args[1]==='readwrite')throw new DOMException('Disk full','QuotaExceededError');return original.apply(this,args as any);};});}
@@ -45,25 +45,25 @@ test('after a failed answer, choosing a different answer saves the new choice',a
  await start(page);await hear(page);await failWrites(page);
  await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('alert')).toContainText('未能确认保存');
  await restoreWrites(page);await page.getByRole('button',{name:'没听懂',exact:true}).click();
- await expect(page.getByText('✓ 已保存到本机 · 没听懂')).toBeVisible();expect((await snapshot(page)).feedback[0].rating).toBe('again');
+ await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^没听懂$/})).toBeVisible();expect((await snapshot(page)).feedback[0].rating).toBe('again');
 });
 test('failed correction must be resolved before advancing and cannot leak into the next card',async({page})=>{
- await start(page);await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();
+ await start(page);await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();
  await failWrites(page);await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByRole('alert')).toContainText('未能确认保存');
  await expect(page.getByRole('button',{name:'下一项'})).toBeDisabled();await restoreWrites(page);
- await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByText('✓ 已保存到本机 · 没听懂')).toBeVisible();
+ await page.getByRole('button',{name:'改为没听懂'}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^没听懂$/})).toBeVisible();
  await page.getByRole('button',{name:'下一项'}).click();await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();
  await expect(page.getByRole('heading',{name:'課題',exact:true})).toBeVisible();expect((await snapshot(page)).feedback).toHaveLength(3);
 });
 test('advancing uses the committed snapshot even when subsequent readonly access is unavailable',async({page})=>{
- await start(page);await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();
+ await start(page);await hear(page);await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();
  await page.evaluate(()=>{const original=IDBDatabase.prototype.transaction;let committed=false;(window as any).restoreTransaction=()=>IDBDatabase.prototype.transaction=original;IDBDatabase.prototype.transaction=function(...args:any[]){if(committed&&args[1]==='readonly')throw new DOMException('Temporary read error','UnknownError');const tx=original.apply(this,args as any);if(args[1]==='readwrite')tx.addEventListener('complete',()=>{committed=true;});return tx;};});
  await page.getByRole('button',{name:'下一项'}).click();await expect(page.getByText('这个声音，你听懂了吗？')).toBeVisible();await expect(page.getByRole('alert')).toHaveCount(0);
  await restoreWrites(page);expect((await snapshot(page)).cursorItemId).toBe('eju-02-004-a');
 });
 test('two tabs reconcile conflicting answers and stale next actions without duplicates',async({page,context})=>{
  const other=await context.newPage();await start(page);await start(other);await hear(page);await hear(other);
- await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByText('✓ 已保存到本机 · 听懂了')).toBeVisible();
+ await page.getByRole('button',{name:'听懂了',exact:true}).click();await expect(page.getByRole('status',{name:'当前标记'}).filter({hasText:/^听懂了$/})).toBeVisible();
  await other.getByRole('button',{name:'没听懂',exact:true}).click();await expect(other.getByRole('alert')).toContainText('另一页面');expect((await snapshot(other)).feedback).toHaveLength(1);
  await page.getByRole('button',{name:'下一项'}).click();await expect(page.getByText('这个声音，你听懂了吗？')).toBeVisible();
  await other.getByRole('button',{name:'下一项'}).click();await expect(other.getByText('这个声音，你听懂了吗？')).toBeVisible();
@@ -74,7 +74,7 @@ async function completeGroup(page:Page){
  await start(page);
  for(let i=0;i<5;i++){
   await hear(page);await page.getByRole('button',{name:i===0?'没听懂':'听懂了',exact:true}).click();
-  await expect(page.getByText(/✓ 已保存到本机/)).toBeVisible();
+  await expect(page.getByRole('status',{name:'当前标记'})).toBeVisible();
   await page.getByRole('button',{name:'下一项'}).click();
  }
  await expect(page.getByRole('heading',{name:'本组已完成'})).toBeVisible();
